@@ -6,6 +6,7 @@
 :root {
     --cor-primaria: #124A9F;
     --cor-secundaria: #3BD8FF;
+    --cor-azulclaro: #c5f4ff;
     --cor-branco: white;
     --cor-botao: #01255A;
     --cor-whatsapp: #2AB640;
@@ -229,4 +230,23 @@ nav > a:active, a:hover {
 .parte2__texto__texto {
     color: var(--cor-botao);
     line-height: 20px;
+    margin-bottom: 2rem;
+}
+
+.parte2__serviços__link-dedicado {
+    background-color: var(--cor-azulclaro);
+    width: 85vw;
+    height: 290px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+footer {
+    background-color: white;
+    height: 100px;
 }
