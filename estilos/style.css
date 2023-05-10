@@ -18,6 +18,7 @@
     font-family: var(--fonte-principal);
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body, html {
@@ -78,7 +79,6 @@ i#burguer:hover {
 
 .menu-primario {
     color: var(--cor-branco);
-    text-decoration: none;
 }
 
 hr {
@@ -90,7 +90,6 @@ hr {
 
 .menu-secundario {
     color: var(--cor-secundaria);
-    text-decoration: none;
     font-weight: 600;
 }
 
@@ -151,7 +150,6 @@ nav > a:active, a:hover {
 .parte1__botao {
     color: var(--cor-branco);
     background-color: var(--cor-botao);
-    text-decoration: none;
     padding: 12px;
     border-radius: 5px;
     text-align: center;
@@ -161,7 +159,7 @@ nav > a:active, a:hover {
 
 
 /**********************/
-/*------PARTE 2-------*/ /* carrossel/*
+/*------PARTE 2-------*/ /* parte do degradê azulzinho claro/*
 /**********************/
 
  .container-slider {
@@ -248,6 +246,12 @@ nav > a:active, a:hover {
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
 }
 
+.parte2__serviços__link-dedicado__texto {
+    padding: 25px;
+    font-size: 2rem;
+    color: var(--cor-botao);
+}
+
 .parte2__serviços__banda-larga {
     background-color: var(--cor-azulclaro);
     width: 85vw;
@@ -257,14 +261,44 @@ nav > a:active, a:hover {
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
 }
 
+.parte2__serviços__banda-larga__texto {
+    padding: 25px;
+    font-size: 2rem;
+    color: var(--cor-botao);
+}
+
 .parte2__frase {
     padding: 0 25px;
+    color: var(--cor-botao);
+    margin-bottom: 30px;
 }
 
 .parte2__frase > strong {
     color: var(--cor-primaria);
 }
 
+
+/**********************/
+/*------PARTE 3-------*/ /* VoIP/*
+/**********************/
+
+.parte3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--cor-primaria);
+    padding: 25px;
+    color: white;
+}
+
+.parte3__titulo {
+    font-size: 1.5rem;
+}
+
+.parte3__texto {
+    font-size: 0.9rem;
+    line-height: 20px;
+}
 
 
 
