@@ -1,3 +1,5 @@
+/* Menu Hamburguer*/
+
 function clickMenu() {
     if (imenu.style.display == 'block') {
         imenu.style.display = 'none'
@@ -6,4 +8,6 @@ function clickMenu() {
     }
 }
 
+
+/* Carrossel */
 

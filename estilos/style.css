@@ -1,17 +1,20 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 :root {
-    --azullogo: #124a9f;
-    --azul2: #2264b0;
-    --azul3: #377bbd;
-    --azul4: #609bce;
-    --azulagua: #00CCFF;
-    --azulescuro: #000034; 
-    --preto: black;
+    --cor-primaria: #124A9F;
+    --cor-secundaria: #3BD8FF;
+    --cor-branco: white;
+    --cor-botao: #01255A;
+    --cor-whatsapp: #2AB640;
+
+    --fonte-principal: 'Inter', sans-serif;
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-principal);
     margin: 0;
     padding: 0;
 }
@@ -22,19 +25,27 @@ body, html {
 }
 
 
-/*-------------------- LOGO E MENU --------------------*/
+/**********************/
+/*------HEADER--------*/
+/**********************/
+
 
 header {
+    display: flex;
     padding: 25px;
+    background-color: #124A9F;
+    flex-direction: column;
+    gap: 25px;
 }
 
-header > img {
+.logo {
     height: 70px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
-i#burguer > p {
-    display: inline;
+.material-symbols-outlined {
+    color: white;
+    padding-bottom: 10px;
 }
 
 i#burguer > span {
@@ -44,29 +55,42 @@ i#burguer > span {
 }
 
 i#burguer:hover {
-    color: var(--azul4);
+    color: var(--cor-secundaria);
     font-weight: bold;
 }
 
-menu#imenu {
+#imenu {
     text-align: center;
     display: none;
     background-color: #00ccff19;
     border-radius: 10px;    
 }
 
-/*para tirar os "•" antes dos tópicos*/
-menu#imenu > ul {
+.navegacao {
     list-style-type: none ;
-}
-
-menu#imenu > ul > li {
     padding: 5px;
 }
 
-nav > menu#imenu > ul > li > a {
-    color: var(--preto);
+.navegacao > li {
+    padding: 5px;
+}
+
+.menu-primario {
+    color: var(--cor-branco);
     text-decoration: none;
+}
+
+hr {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    margin: auto;
+    width: 80%;
+}
+
+.menu-secundario {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-weight: 600;
 }
 
 nav > a:active, a:hover {
@@ -77,61 +101,81 @@ nav > a:active, a:hover {
 }
 
 
-/*-----------------------------------------------*/
-/*-----------------CORPO-------------------------*/
-/*-----------------------------------------------*/
+/**********************/
+/*------PARTE 1-------*/ /*Projetos Referência/*
+/**********************/
 
-/*-----------------PROJETOS REFERENCIA-------------------*/
-
-main > div#projetos {
-    padding: 50px 25px;
-    color: var(--azullogo);
+.imagem-home {
+    width: 100vw;
 }
 
-main > div#projetos > img {
-    display: block;
-    height: 200px;
-    margin: auto;
-}  
-
-.outracor {
-    color: var(--azulagua);
-}
-
-.gif {
-    width: 150px;
-    height: 150px;
-    background-color: #008BCA;
-    margin: 0 auto 15px auto;
-}
-
-
-/*-----------------LINK DE INTERNET DEDICADO-------------------*/
-
-main > div#link {
-    padding: 50px 25px;
-    background-color: var(--azullogo);
+.parte1 {
+    margin-top: -4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px;
+    background-color: var(--cor-primaria);
     color: white;
 }
 
-main > div#link > h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+.parte1__caixa-alta {
+    font-size: 0.7rem;
+    font-weight: 400;
+    display: inline;
 }
 
-main > div#link > ul {
-    list-style:none;
-    color: var(--azulagua);
-    font-weight: bold;
+.parte1 > h2 > img {
+    display: inline;
+    width: 12px;
 }
 
-main > div#link > ul > li {
-    margin-bottom: 5px;
+.parte1__titulo {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.parte1__titulo > strong {
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
+
+.parte1__texto {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.parte1__botao {
+    color: var(--cor-branco);
+    background-color: var(--cor-botao);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.7rem;
 }
 
 
-/*----------------- INTERNET BANDA LARGA -------------------*/
+/**********************/
+/*------PARTE 2-------*/ /* carrossel/*
+/**********************/
 
+ .container-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
 
-
-
+.container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
