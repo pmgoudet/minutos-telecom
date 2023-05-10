@@ -36,7 +36,7 @@ header {
     padding: 25px;
     background-color: #124A9F;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
 }
 
 .logo {
@@ -115,7 +115,7 @@ nav > a:active, a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
     padding: 25px;
     background-color: var(--cor-primaria);
     color: white;
@@ -233,15 +233,33 @@ nav > a:active, a:hover {
     margin-bottom: 2rem;
 }
 
+.parte2__serviços {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 .parte2__serviços__link-dedicado {
     background-color: var(--cor-azulclaro);
     width: 85vw;
     height: 290px;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
 }
 
+.parte2__serviços__banda-larga {
+    background-color: var(--cor-azulclaro);
+    width: 85vw;
+    height: 290px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
+}
 
+.parte2__frase {
+    padding: 25px;
+}
 
 
 
