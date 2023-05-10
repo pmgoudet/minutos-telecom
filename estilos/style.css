@@ -156,7 +156,7 @@ nav > a:active, a:hover {
     border-radius: 5px;
     text-align: center;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 
@@ -258,7 +258,11 @@ nav > a:active, a:hover {
 }
 
 .parte2__frase {
-    padding: 25px;
+    padding: 0 25px;
+}
+
+.parte2__frase > strong {
+    color: var(--cor-primaria);
 }
 
 
