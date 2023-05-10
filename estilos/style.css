@@ -300,6 +300,29 @@ nav > a:active, a:hover {
     line-height: 20px;
 }
 
+.parte3__vantagens-voip {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    margin: auto;
+}
+
+.voip_icones_palavras {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.voip_icones {
+    height: 60px;
+    display: inline;
+}
+
+.voip_palavras {
+    display: inline;
+    font-size: 1rem;
+}
 
 
 footer {
