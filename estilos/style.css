@@ -63,7 +63,7 @@ i#burguer:hover {
     text-align: center;
     display: none;
     background-color: #00ccff19;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 .navegacao {
@@ -206,3 +206,27 @@ nav > a:active, a:hover {
     transform: rotate(180deg);
 }
 
+.parte2 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(1,212,255,0.20030120481927716) 100%);
+}
+
+.parte2__texto {
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.parte2__texto__titulo {
+    color: var(--cor-botao);
+    font-size: 1.6rem;
+}
+
+.parte2__texto__titulo > strong {
+    color: var(--cor-primaria);
+}
+
+.parte2__texto__texto {
+    color: var(--cor-botao);
+    line-height: 20px;
+}
