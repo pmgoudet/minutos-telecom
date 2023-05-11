@@ -238,7 +238,8 @@ nav > a:active, a:hover {
 }
 
 .parte2__serviços__link-dedicado {
-    background-color: var(--cor-azulclaro);
+    background-image: url(/imagens/link-dedicado.jpg);
+    background-size: cover;
     width: 85vw;
     height: 290px;
     margin: auto;
@@ -249,11 +250,12 @@ nav > a:active, a:hover {
 .parte2__serviços__link-dedicado__texto {
     padding: 25px;
     font-size: 2rem;
-    color: var(--cor-botao);
+    color: var(--cor-branco);
 }
 
 .parte2__serviços__banda-larga {
-    background-color: var(--cor-azulclaro);
+    background-image: url(/imagens/banda-larga.jpg);
+    background-size: cover;
     width: 85vw;
     height: 290px;
     margin: auto;
@@ -264,7 +266,8 @@ nav > a:active, a:hover {
 .parte2__serviços__banda-larga__texto {
     padding: 25px;
     font-size: 2rem;
-    color: var(--cor-botao);
+    color: var(--cor-branco);
+    stroke: 1px solid black;
 }
 
 .parte2__frase {
@@ -287,12 +290,13 @@ nav > a:active, a:hover {
     flex-direction: column;
     gap: 20px;
     background-color: var(--cor-primaria);
-    padding: 25px;
+    padding: 35px 25px;
     color: white;
 }
 
 .parte3__titulo {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--cor-secundaria);
 }
 
 .parte3__texto {
@@ -333,6 +337,56 @@ nav > a:active, a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+
+/**********************/
+/*------PARTE 4-------*/ /* Suporte técnico/*
+/**********************/
+
+.parte4__imagem {
+    width: 100vw;
+}
+
+.parte4__suporte-tecnico {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -4px;
+    background-image: url(/imagens/bg-suporte.jpg);
+    background-size: cover;
+    padding: 35px 25px;
+}
+
+.parte4__suporte-tecnico {
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+.parte4__suporte-tecnico__titulo {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.parte4__suporte-tecnico__texto {
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+.parte4__suporte-tecnico__botao {
+    color: var(--cor-branco);
+    background-color: var(--cor-whatsapp);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+/**********************/
+/*----REDES SOCIAIS---*/
+/**********************/
+
 
 
 
