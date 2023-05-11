@@ -10,6 +10,7 @@
     --cor-branco: white;
     --cor-botao: #01255A;
     --cor-whatsapp: #2AB640;
+    --cor-cinza: #828282;
 
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -380,6 +381,8 @@ nav > a:active, a:hover {
     padding: 5px;
     font-weight: 600;
     font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -387,7 +390,36 @@ nav > a:active, a:hover {
 /*----REDES SOCIAIS---*/
 /**********************/
 
+.redes-sociais {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    width: 70%;
+    margin: auto;
+}
 
+.link_face {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--cor-cinza);
+}
+
+.link_face > img {
+    height: 15px;
+}
+
+.link_insta {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--cor-cinza);
+}
+
+.link_insta > img {
+    height: 15px;
+}
 
 
 /**********************/
@@ -395,6 +427,27 @@ nav > a:active, a:hover {
 /**********************/
 
 footer {
-    background-color: white;
-    height: 100px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 25px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer > p {
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+
+footer > hr {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 0.5rem;
+    line-height: 10px;
+    text-align: center;
+    font-style: italic;
 }
