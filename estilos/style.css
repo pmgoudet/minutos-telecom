@@ -133,7 +133,7 @@ nav > a:active, a:hover {
 }
 
 .parte1__titulo {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -221,6 +221,7 @@ nav > a:active, a:hover {
     color: var(--cor-botao);
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 30px;
 }
 
 .parte2__texto__titulo > strong {
