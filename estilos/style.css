@@ -239,7 +239,7 @@ nav > a:active, a:hover {
 }
 
 .parte2__serviços__link-dedicado {
-    background-image: url(/imagens/link-dedicado.jpg);
+    background-image: url(../imagens/link-dedicado.jpg);
     background-size: cover;
     width: 85vw;
     height: 290px;
@@ -255,7 +255,7 @@ nav > a:active, a:hover {
 }
 
 .parte2__serviços__banda-larga {
-    background-image: url(/imagens/banda-larga.jpg);
+    background-image: url(../imagens/banda-larga.jpg);
     background-size: cover;
     width: 85vw;
     height: 290px;
@@ -353,7 +353,7 @@ nav > a:active, a:hover {
     flex-direction: column;
     gap: 20px;
     margin-top: -4px;
-    background-image: url(/imagens/bg-suporte.jpg);
+    background-image: url(../imagens/bg-suporte.jpg);
     background-size: cover;
     padding: 35px 25px;
     color: var(--cor-branco);
