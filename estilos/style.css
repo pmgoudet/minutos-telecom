@@ -220,10 +220,12 @@ nav > a:active, a:hover {
 .parte2__texto__titulo {
     color: var(--cor-botao);
     font-size: 1.6rem;
+    font-weight: 500;
 }
 
 .parte2__texto__titulo > strong {
     color: var(--cor-primaria);
+    font-weight: 500;
 }
 
 .parte2__texto__texto {
@@ -251,6 +253,7 @@ nav > a:active, a:hover {
 .parte2__serviços__link-dedicado__texto {
     padding: 25px;
     font-size: 2rem;
+    font-weight: 500;
     color: var(--cor-branco);
 }
 
@@ -267,6 +270,7 @@ nav > a:active, a:hover {
 .parte2__serviços__banda-larga__texto {
     padding: 25px;
     font-size: 2rem;
+    font-weight: 500;
     color: var(--cor-branco);
     stroke: 1px solid black;
 }
@@ -275,10 +279,12 @@ nav > a:active, a:hover {
     padding: 0 25px;
     color: var(--cor-botao);
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 .parte2__frase > strong {
     color: var(--cor-primaria);
+    font-weight: 500;
 }
 
 
@@ -298,6 +304,7 @@ nav > a:active, a:hover {
 .parte3__titulo {
     font-size: 1.7rem;
     color: var(--cor-secundaria);
+    font-weight: 500;
 }
 
 .parte3__texto {
@@ -327,6 +334,7 @@ nav > a:active, a:hover {
 .voip_palavras {
     display: inline;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 .parte3__botao {
@@ -337,6 +345,7 @@ nav > a:active, a:hover {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 10px;
+    font-weight: 500;
 }
 
 
@@ -358,6 +367,7 @@ nav > a:active, a:hover {
     padding: 35px 25px;
     color: var(--cor-branco);
     text-align: center;
+    font-weight: 500;
 }
 
 .parte4__suporte-tecnico__titulo {
@@ -431,6 +441,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+footer > h2 {
+    font-weight: 500;
 }
 
 footer > p {
