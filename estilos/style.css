@@ -356,9 +356,6 @@ nav > a:active, a:hover {
     background-image: url(/imagens/bg-suporte.jpg);
     background-size: cover;
     padding: 35px 25px;
-}
-
-.parte4__suporte-tecnico {
     color: var(--cor-branco);
     text-align: center;
 }
