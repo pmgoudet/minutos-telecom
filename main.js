@@ -1,14 +1,3 @@
-/* Menu Hamburguer*/
-
-function clickMenu() {
-    if (imenu.style.display == 'block') {
-        imenu.style.display = 'none'
-    } else {
-        imenu.style.display = 'block'
-    }
-}
-
-
 /* Carrossel */
 
 const slider = document.querySelectorAll('.slider');
@@ -45,6 +34,23 @@ function prevSlider () {
     showSlider();
 }
 
-
 btnNext.addEventListener('click', nextSlider);
 btnPrev.addEventListener('click', prevSlider);
+
+/* Menu Hamburguer*/
+
+function clickMenu() {
+    if (imenu.style.display == 'block') {
+        imenu.style.display = 'none'
+    } else {
+        imenu.style.display = 'block'
+    }
+}
+
+
+// PARA OS BOTOES LIGAREM
+
+const botaoSuporte = document.getElementById('botaoSuporte')
+botaoSuporte.addEventListener('click', (event) => {
+    window.location.href = 'tel:' + numero;
+})
