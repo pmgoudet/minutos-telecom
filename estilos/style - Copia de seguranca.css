@@ -46,66 +46,38 @@ header {
     margin: auto;
 }
 
-
-#btn-mobile {
-    display: flex;
-    background: none;
-    cursor: pointer;
-    margin: auto;
-    font-size: .7rem;
-    padding: .5rem 1rem;
-    border: none;
-    color: var(--cor-branco);
-}
-
-#hamburguer {
-    width: 25px;
-    border-top: 2px solid;
-}
-
-#hamburguer::after, #hamburguer::before {
-    content: '';
-    display: block;
-    width: 25px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: .5s;
-    position: relative;
-}
-
-#menu {
+i#burguer > span {
     display: block;
     text-align: center;
-    color: aliceblue;
+    cursor: pointer;
+}
+
+span > img {
+    height: 24px;
+}
+
+
+span:hover {
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+#imenu {
+    display: none;
+    text-align: center;
     background-color: #00ccff19;
     border-radius: 10px;
-    height: 0px;
-    transition: 0.3s;
+    transition: 1s ease;
     opacity: 0;
     visibility: hidden;
 }
 
-#nav.active #menu {
-    display: block;
-    justify-content: center;
-    height: 262px;
+#imenu.open {
     opacity: 1;
     visibility: visible;
+    display: block;
 }
 
-#nav.active #hamburguer {
-    border-top-color: transparent;
-}
-
-#nav.active #hamburguer::before {
-    transform: rotate(135deg);
-}
-
-#nav.active #hamburguer::after {
-    transform: rotate(-135deg);
-    top: -7px;
-}
 
 .navegacao {
     list-style-type: none ;
@@ -124,7 +96,7 @@ hr {
     background-color: var(--cor-secundaria);
     color: var(--cor-secundaria);
     margin: auto;
-    width: 50vw;
+    width: 80%;
 }
 
 .menu-secundario {
@@ -139,8 +111,6 @@ nav > a:active, a:hover {
     transform: 0.5s;
 }
 
-
-/*
 
 /**********************/
 /*------PARTE 1-------*/ /*Projetos Referência/*

@@ -1,4 +1,23 @@
-/* Carrossel */
+/* Menu Hamburguer*/
+
+const btnMobile = document.querySelector('#btn-mobile')
+const nav = document.querySelector('#nav')
+
+btnMobile.addEventListener('click', toggleMenu)
+
+
+function toggleMenu() {
+    nav.classList.toggle('active')
+}
+
+
+
+
+
+
+
+
+/* Carrossel 
 
 const slider = document.querySelectorAll('.slider');
 const btnPrev = document.getElementById('prev-button');
@@ -37,15 +56,6 @@ function prevSlider () {
 btnNext.addEventListener('click', nextSlider);
 btnPrev.addEventListener('click', prevSlider);
 
-/* Menu Hamburguer*/
-
-function clickMenu() {
-    if (imenu.style.display == 'block') {
-        imenu.style.display = 'none'
-    } else {
-        imenu.style.display = 'block'
-    }
-}
 
 
 // PARA OS BOTOES LIGAREM
@@ -54,3 +64,8 @@ const botaoSuporte = document.getElementById('botaoSuporte')
 botaoSuporte.addEventListener('click', (event) => {
     window.location.href = 'tel:' + numero;
 })
+
+
+
+*/
+
