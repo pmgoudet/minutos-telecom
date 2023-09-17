@@ -1,9 +1,9 @@
 /* Menu Hamburguer*/
 
-const btnMobile = document.querySelector('#btn-mobile')
+const mobileBtn = document.querySelector('#btn-mobile')
 const nav = document.querySelector('#nav')
 
-btnMobile.addEventListener('click', toggleMenu)
+mobileBtn.addEventListener('click', toggleMenu)
 
 
 function toggleMenu() {
