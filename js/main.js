@@ -1,4 +1,4 @@
-/* Menu Hamburguer*/
+// MENU HAMBURGUER
 
 const btnMobile = document.querySelector('#btn-mobile')
 const nav = document.querySelector('#nav')
@@ -11,13 +11,7 @@ function toggleMenu() {
 }
 
 
-
-
-
-
-
-
-/* Carrossel 
+// CARROSSEL 
 
 const slider = document.querySelectorAll('.slider');
 const btnPrev = document.getElementById('prev-button');
@@ -56,7 +50,10 @@ function prevSlider () {
 btnNext.addEventListener('click', nextSlider);
 btnPrev.addEventListener('click', prevSlider);
 
+setInterval(nextSlider, 2000)
 
+
+/*
 
 // PARA OS BOTOES LIGAREM
 
