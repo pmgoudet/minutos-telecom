@@ -1,0 +1,17 @@
+.swiper-slide img {
+   width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   color: var(--cor-secundaria);
+}
+
+.swiper-pagination {
+   padding: 0.5em;
+}
+
+.swiper-pagination-bullet {
+   background-color: var(--cor-secundaria);
+}
+

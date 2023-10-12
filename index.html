@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minutos Telecom</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -34,35 +35,29 @@
     <main>
         <img class="imagem-home" src="imagens/imagem-home.jpg">
         
-        <section class="parte1">
-            <h2 class="parte1__caixa-alta">DESCUBRA NOVAS POSSIBILIDADES <img src="imagens/icone-wireless.png"></h2>
-            <h1 class="parte1__titulo">Projetos Referência em <strong>Internet Empresarial</strong></h1>
-            <p class="parte1__texto">Obtenha alto desempenho para sua empresa com qualidade e suporte técnico rápido. Conheça nossos projetos de internet empresarial de excelência com preço justo.</p>
-            <a class="parte1__botao" href="corporativo.html">Conheça nossas soluções!</a>
+        <section class="banner">
+            <h2 class="banner__caixa-alta">DESCUBRA NOVAS POSSIBILIDADES <img src="imagens/icone-wireless.png"></h2>
+            <h1 class="banner__titulo">Projetos Referência em <strong>Internet Empresarial</strong></h1>
+            <p class="banner__texto">Obtenha alto desempenho para sua empresa com qualidade e suporte técnico rápido. Conheça nossos projetos de internet empresarial de excelência com preço justo.</p>
+            <a class="banner__botao" href="corporativo.html">Conheça nossas soluções!</a>
         </section>
 
-        <div class="slider">
-            <div class="slides">
-                <!-- Slide images -->
-                <div class="slide-first">
-                    <img src="imagens/test-carrossel1.jpg" alt="1">
-                </div>
-                <div class="slide">
-                    <img src="imagens/test-carrossel2.jpg" alt="2">
-                </div>
-                <div class="slide">
-                    <img src="imagens/test-carrossel3.jpg" alt="3">
-                </div>
+        <!-- Slider main container -->
+        <section class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="imagens/test-carrossel1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/test-carrossel2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/test-carrossel3.jpg" alt=""></div>
             </div>
-
-
-            <!-- <button id="prev-button"><img src="imagens/prev-button.png" alt="prev-button"></button>
-            <div class="container-images">
-                <img src="imagens/test-carrossel2.jpg" alt="2" class="slider">
-                <img src="imagens/test-carrossel3.jpg" alt="3" class="slider">
-            </div>
-            <button id="next-button"><img src="imagens/prev-button.png" alt="next-button"></button> -->
-        </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </section>
+        
 
         <section class="parte2">
             <div class="parte2__texto">
@@ -80,7 +75,7 @@
             </div>
         </section>
 
-        <section class="parte3">
+        <!-- <section class="parte3">
             <h2 class="parte3__titulo">Tecnologia VoIP</h2>
             <p class="parte3__texto">Chamadas de alta qualidade para qualquer lugar do mundo por um <strong>preço muito mais acessível</strong>.</p>
             <div class="parte3__vantagens-voip">
@@ -144,9 +139,21 @@
     <p class="copyright">© Copyright 2020 - 2023 <br>
         Criado por Pedrão <br>
         All Rights Reserved</p>
-    </footer>
-
+    </footer> -->
+    
     <script src="js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+      
+        const swiper = new Swiper('.swiper', {
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+        });
+    </script>
+
 </body>
 </html>
 

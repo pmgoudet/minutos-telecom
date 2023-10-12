@@ -1,0 +1,108 @@
+header {
+   display: flex;
+   padding: 25px;
+   background-color: #124A9F;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.logo {
+   height: 70px;
+   margin: auto;
+}
+
+
+#btn-mobile {
+   display: flex;
+   background: none;
+   cursor: pointer;
+   margin: auto;
+   font-size: .7rem;
+   border: none;
+   color: var(--cor-branco);
+}
+
+#hamburguer {
+   width: 25px;
+   border-top: 2px solid;
+}
+
+#hamburguer::after, #hamburguer::before {
+   content: '';
+   display: block;
+   width: 25px;
+   height: 2px;
+   background: currentColor;
+   margin-top: 5px;
+   transition: .5s;
+   position: relative;
+}
+
+#menu {
+   display: block;
+   text-align: center;
+   color: aliceblue;
+   background-color: #00ccff19;
+   border-radius: 10px;
+   height: 0px;
+   transition: 0.3s;
+   opacity: 0;
+   visibility: hidden;
+   margin-top: 10px;
+}
+
+#nav.active #menu {
+   display: block;
+   justify-content: center;
+   height: 16em;
+   opacity: 1;
+   visibility: visible;
+}
+
+#nav.active #hamburguer {
+   border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {
+   transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {
+   transform: rotate(-135deg);
+   top: -7px;
+}
+
+.navegacao {
+   list-style-type: none ;
+   font-family: var(--fonte-principal);
+   padding: 5px;
+   font-weight: 500;
+}
+
+.navegacao > li {
+   padding: 5px;
+   font-size: 19px;
+}
+
+.menu-primario {
+   color: var(--cor-branco);
+}
+
+hr {
+   background-color: var(--cor-secundaria);
+   color: var(--cor-secundaria);
+   margin: auto;
+   width: 50vw;
+}
+
+.menu-secundario {
+   color: var(--cor-secundaria);
+   font-weight: 600;
+}
+
+nav > a:active, a:hover {
+   font-weight: bold;
+   padding: 5px;
+   border-radius: 5px;
+   transform: 0.5s;
+} 

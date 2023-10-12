@@ -1,0 +1,52 @@
+.imagem-home {
+   width: 100vw;
+   margin-top: -1px;
+}
+
+.banner {
+   margin-top: -4px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 30px;
+   padding: 35px 25px;
+   background-color: var(--cor-primaria);
+   color: white;
+}
+
+.banner__caixa-alta {
+   font-size: 0.7rem;
+   font-weight: 400;
+   display: inline;
+}
+
+.banner > h2 > img {
+   display: inline;
+   width: 12px;
+}
+
+.banner__titulo {
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+.banner__titulo > strong {
+   color: var(--cor-secundaria);
+   font-weight: 500;
+}
+
+.banner__texto {
+   font-size: 0.9rem;
+   font-weight: 300;
+   line-height: 20px;
+}
+
+.banner__botao {
+   color: var(--cor-branco);
+   background-color: var(--cor-botao);
+   padding: 12px;
+   border-radius: 5px;
+   text-align: center;
+   font-weight: 400;
+   font-size: 0.9rem;
+}
