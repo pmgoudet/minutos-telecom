@@ -4,7 +4,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-   color: var(--cor-secundaria);
+   display: none;   
 }
 
 .swiper-pagination {
