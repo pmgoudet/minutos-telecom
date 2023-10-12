@@ -1,0 +1,84 @@
+.pos-carrossel {
+   background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(1,212,255,0.20030120481927716) 100%);
+   padding-top: 10px;
+}
+
+.pos-carrossel__texto {
+   padding: 0 25px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.pos-carrossel__texto__titulo {
+   color: var(--cor-botao);
+   font-size: 1.6rem;
+   font-weight: 800;
+   line-height: 30px;
+}
+
+.pos-carrossel__texto__titulo > strong {
+   color: var(--cor-primaria);
+   font-weight: 600;
+}
+
+.pos-carrossel__texto__texto {
+   color: var(--cor-botao);
+   line-height: 20px;
+   margin-bottom: 2rem;
+   font-weight: 500;
+   color: var(--cor-primaria);
+}
+
+.pos-carrossel__serviços {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+}
+
+.pos-carrossel__serviços__link-dedicado {
+   background-image: url(../imagens/link-dedicado.jpg);
+   background-size: cover;
+   width: 95vw;
+   height: 290px;
+   margin: auto;
+   border-radius: 10px;
+   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
+}
+
+.pos-carrossel__serviços__link-dedicado__texto {
+   padding: 25px;
+   font-size: 2rem;
+   font-weight: 500;
+   color: var(--cor-branco);
+}
+
+.pos-carrossel__serviços__banda-larga {
+   background-image: url(../imagens/banda-larga.jpg);
+   background-size: cover;
+   width: 95vw;
+   height: 290px;
+   margin: auto;
+   border-radius: 10px;
+   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
+}
+
+.pos-carrossel__serviços__banda-larga__texto {
+   padding: 25px;
+   font-size: 2rem;
+   font-weight: 500;
+   color: var(--cor-branco);
+   stroke: 1px solid black;
+}
+
+.pos-carrossel__frase {
+   padding: 0 25px;
+   color: var(--cor-botao);
+   margin-bottom: 30px;
+   font-weight: 500;
+}
+
+.pos-carrossel__frase > strong {
+   color: var(--cor-primaria);
+   font-weight: 500;
+}

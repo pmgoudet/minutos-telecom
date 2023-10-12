@@ -6,6 +6,7 @@
 @import url(/estilos/nav.css);
 @import url(/estilos/banner.css);
 @import url(/estilos/carrossel.css);
+@import url(/estilos/pos-carrossel.css);
 
 :root {
     --cor-primaria: #124A9F;
@@ -15,6 +16,7 @@
     --cor-botao: #01255A;
     --cor-whatsapp: #2AB640;
     --cor-cinza: #828282;
+    --degrade-azul-claro: linear-gradient(0deg, rgba(255,255,255,1) 100%, rgba(1,212,255,0.2) 100%);
 
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -25,161 +27,8 @@
 }
 
 
-/**********************/
-/*------PARTE 2-------*/ /* parte do degradê azulzinho claro/*
-/**********************/
-
-.container-slider {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 10px;
-}
-
-.container-slider button {
-    z-index: 1;
-    width: 2px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin: 20px;
-}
-
-#next-button {
-    transform: rotate(180deg);
-}
-
-.slides input {
-    display: none;
-}
-
-.slides div img {
-    width: 100vw;
-}
-
-.slide {
-    width: 25%;
-    position: relative;
-}
 
 
-
-
-
-
-
-
-
-
-
-/* 
-.container-images {
-    position: static;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 310px;
-}
-
-.slides {
-    opacity: 0;
-    transition: ease-in-out .2s;
-    position: absolute;
-    width: 100%;
-    max-width: 292px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
-}
-
-.on {
-    opacity: 1;
-}
-
-.parte2 {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(1,212,255,0.20030120481927716) 100%);
-}
-
-.parte2__texto {
-    padding: 0 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.parte2__texto__titulo {
-    color: var(--cor-botao);
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 30px;
-}
-
-.parte2__texto__titulo > strong {
-    color: var(--cor-primaria);
-    font-weight: 600;
-}
-
-.parte2__texto__texto {
-    color: var(--cor-botao);
-    line-height: 20px;
-    margin-bottom: 2rem;
-}
-
-.parte2__serviços {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
-
-.parte2__serviços__link-dedicado {
-    background-image: url(../imagens/link-dedicado.jpg);
-    background-size: cover;
-    width: 95vw;
-    height: 290px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
-}
-
-.parte2__serviços__link-dedicado__texto {
-    padding: 25px;
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--cor-branco);
-}
-
-.parte2__serviços__banda-larga {
-    background-image: url(../imagens/banda-larga.jpg);
-    background-size: cover;
-    width: 95vw;
-    height: 290px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.367);
-}
-
-.parte2__serviços__banda-larga__texto {
-    padding: 25px;
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--cor-branco);
-    stroke: 1px solid black;
-}
-
-.parte2__frase {
-    padding: 0 25px;
-    color: var(--cor-botao);
-    margin-bottom: 30px;
-    font-weight: 500;
-}
-
-.parte2__frase > strong {
-    color: var(--cor-primaria);
-    font-weight: 500;
-}
 
 
 /**********************/
