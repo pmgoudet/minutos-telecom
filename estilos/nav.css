@@ -86,6 +86,7 @@ header {
 
 .menu-primario {
    color: var(--cor-branco);
+   font-weight: 400;
 }
 
 hr {
