@@ -1,5 +1,7 @@
 .swiper-slide img {
-   width: 100%;
+   width: 95%;
+   margin: 2.5%;
+   border-radius: 15px;
 }
 
 .swiper-button-next,
