@@ -14,7 +14,7 @@
    color: var(--cor-botao);
    font-size: 1.8rem;
    font-weight: 800;
-   line-height: 30px;
+   line-height: 1.2em;
 }
 
 .pos-carrossel__texto__titulo > strong {

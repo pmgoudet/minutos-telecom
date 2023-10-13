@@ -1,0 +1,56 @@
+.voip {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   background-color: var(--cor-primaria);
+   padding: 35px 25px;
+   color: white;
+}
+
+.voip__titulo {
+   font-size: 1.7rem;
+   color: var(--cor-secundaria);
+   font-weight: 500;
+}
+
+.voip__texto {
+   font-size: 1em;
+   line-height: 1.3em;
+}
+
+.voip__vantagens-voip {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   justify-content: center;
+   margin: auto;
+}
+
+.voip_icones_palavras {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.voip_icones {
+   height: 60px;
+   display: inline;
+}
+
+.voip_palavras {
+   display: inline;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.voip__botao {
+   background-color: var(--cor-botao);
+   color: white;
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   font-weight: bold;
+   margin-top: 10px;
+   font-weight: 500;
+   line-height: 1.5em;
+}

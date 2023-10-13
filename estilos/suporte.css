@@ -1,0 +1,38 @@
+.suporte__imagem {
+   width: 100vw;
+}
+
+.suporte__suporte-tecnico {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-top: -4px;
+   background-image: url(../imagens/bg-suporte.jpg);
+   background-size: cover;
+   padding: 35px 25px;
+   color: var(--cor-branco);
+   text-align: center;
+   font-weight: 500;
+}
+
+.suporte__suporte-tecnico__titulo {
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+.suporte__suporte-tecnico__texto {
+   font-size: 0.9rem;
+   line-height: 20px;
+}
+
+.suporte__suporte-tecnico__botao {
+   color: var(--cor-branco);
+   background-color: var(--cor-whatsapp);
+   border: none;
+   border-radius: 5px;
+   padding: 5px;
+   font-weight: 600;
+   font-size: 0.9rem;
+   width: 80%;
+   margin: auto;
+}

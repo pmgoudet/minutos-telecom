@@ -1,0 +1,30 @@
+.redes-sociais {
+   display: flex;
+   padding: 25px;
+   justify-content: space-between;
+   font-size: 0.7rem;
+   width: 70%;
+   margin: auto;
+}
+
+.link_face {
+   display: flex;
+   gap: 5px;
+   align-items: center;
+   color: var(--cor-cinza);
+}
+
+.link_face > img {
+   height: 15px;
+}
+
+.link_insta {
+   display: flex;
+   gap: 5px;
+   align-items: center;
+   color: var(--cor-cinza);
+}
+
+.link_insta > img {
+   height: 15px;
+}
