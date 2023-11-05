@@ -1,0 +1,30 @@
+.canal-de-vendas {
+   padding: 2em;
+   text-align: center;
+}
+
+.canal-de-vendas__titulo {
+   font-size: 25px;
+   font-weight: 700;
+   color: var(--cor-primaria);
+}
+
+.canal-de-vendas__texto {
+   font-size: 17px;
+   font-weight: 500;
+   margin: 1em;
+}
+
+.canal-de-vendas__botao {
+   color: var(--cor-branco);
+   background-color: var(--cor-botao);
+   padding: 1em;
+   font-size: 15px;
+   border-radius: 10px;
+}
+
+.canal-de-vendas__link {
+   text-decoration: none;
+   color: var(--cor-branco);
+   font-weight: 500;
+}

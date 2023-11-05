@@ -7,6 +7,7 @@
 @import url(/estilos/carrossel.css);
 @import url(/estilos/pos-carrossel.css);
 @import url(/estilos/voip.css);
+@import url(/estilos/canal-de-vendas.css);
 @import url(/estilos/suporte.css);
 @import url(/estilos/redes.css);
 @import url(/estilos/footer.css);
@@ -19,6 +20,7 @@
     --cor-botao: #01255A;
     --cor-whatsapp: #2AB640;
     --cor-cinza: #828282;
+    --cor-preto: #000000;
     --degrade-azul-claro: linear-gradient(0deg, rgba(255,255,255,1) 100%, rgba(1,212,255,0.2) 100%);
 
     --fonte-principal: 'Inter', sans-serif;
