@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minutos Telecom</title>
+    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -55,13 +56,13 @@
             <div class="banner__botao"><a class="banner__link" href="corporativo.html">Conheça nossas soluções!</a></div>
         </section>
 
-        <!-- Slider main container -->
         <section class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide"><img src="imagens/test-carrossel1.jpg" alt=""></div>
             <div class="swiper-slide"><img src="imagens/test-carrossel2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/test-carrossel3.jpg" alt=""></div>
             <div class="swiper-slide"><img src="imagens/test-carrossel3.jpg" alt=""></div>
             </div>
             <!-- If we need pagination -->
@@ -70,7 +71,6 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </section>
-        
 
         <section class="pos-carrossel">
             <div class="pos-carrossel__texto">
@@ -84,13 +84,21 @@
                 <a class="pos-carrossel__serviços__banda-larga" href="#">
                     <h3 class="pos-carrossel__serviços__banda-larga__texto">Internet Banda Larga</h3>
                 </a>
-                <h2 class="pos-carrossel__frase">Suas reuniões em alta definição, <strong>sem travar</strong>. </h2>
             </div>
+            <h2 class="pos-carrossel__frase">Suas reuniões em alta definição, <strong>sem travar</strong>. </h2>
         </section>
 
        <section class="voip">
-            <h2 class="voip__titulo">Tecnologia VoIP</h2>
-            <p class="voip__texto">Chamadas de alta qualidade para qualquer lugar do mundo por um <strong>preço muito mais acessível</strong>.</p>
+            <div class="voip__titulo-texto-botao">
+                <div class="voip__titulo-texto">
+                    <h2 class="voip__titulo">Tecnologia VoIP</h2>
+                    <p class="voip__texto">Chamadas de alta qualidade para qualquer lugar do mundo por um <strong>preço muito mais acessível</strong>.</p>
+                </div>
+                <div class="voip__botao-tablet">
+                    <a class="voip__link" href="#">Verifique a disponibilidade <br>
+                    deste serviço no seu local.</a>
+                </div>
+            </div>
             <div class="voip__vantagens-voip">
                 <div class="voip_icones_palavras">
                     <img class="voip_icones" src="imagens/icon-economia.png">
@@ -109,7 +117,8 @@
                     <h4 class="voip_palavras">Mobilidade</h4>
                 </div>
             </div>
-            <a class="voip__botao" href="#">Verifique a disponibilidade <br>
+            <div class="voip__botao">
+                <a class="voip__link" href="#">Verifique a disponibilidade <br>
                 deste serviço no seu local.</a>
             </div>
         </section>
@@ -166,6 +175,7 @@
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
       
         const swiper = new Swiper('.swiper', {
+            slidesPerView: 1, 
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
@@ -173,8 +183,11 @@
             autoplay: {
                 delay: 3000,
             },
+            breakpoints: {800: {
+                slidesPerView: 3,
+            }
 
-        });
+        }});
     </script>
 
 </body>
