@@ -28,3 +28,12 @@
 .link_insta > img {
    height: 15px;
 }
+
+@media screen and (min-width: 800px) {
+   
+   .redes-sociais {
+      justify-content: center;
+      gap: 8em;
+   }
+
+}

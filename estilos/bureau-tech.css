@@ -1,18 +1,15 @@
-.bureau-tech {
+.foto-pcs {
    display: none;
 }
 
 @media screen and (min-width: 800px) {
 
-   .bureau-tech {
+   .foto-pcs {
       display: block;   
    }
    
-   .bureau-tech img {
+   .foto-pcs img {
       width: 100%;
       height: auto;
    }
-
-
-
 }

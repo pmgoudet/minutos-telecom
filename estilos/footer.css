@@ -13,13 +13,14 @@
 .contato__titulo {
    font-size: 2em;
    font-weight: 600;
-   margin-bottom: 0.5em;
+   margin-bottom: 1em;
 }
 
 .contato__dados {
    font-size: 1em;
    font-weight: 400;
    line-height: 1.5em;
+   margin: 10px 0;
 }
 
 .linha {
@@ -42,4 +43,22 @@
 .maps {
    width: 100%;
    padding: 1em 0
+}
+
+@media screen and (min-width: 800px) {
+
+   .contato__area-util {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .maps {
+      width: 40%;
+      padding: 0;
+   }
+
+   .linha {
+      margin-top: 2em;
+   };
+
 }

@@ -3,9 +3,6 @@
 }
 
 .suporte__suporte-tecnico {
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
    margin-top: -4px;
    background-image: url(../imagens/bg-suporte.jpg);
    background-size: cover;
@@ -20,9 +17,10 @@
    font-weight: 600;
 }
 
-.suporte__suporte-tecnico__texto {
+.suporte__suporte-tecnico__texto__texto {
    font-size: 0.9rem;
    line-height: 20px;
+   margin: 1.5em 0 0 0;
 }
 
 .suporte__suporte-tecnico__botao {
@@ -44,4 +42,32 @@
       display: none;
    }
 
+   .suporte__suporte-tecnico {
+      display: flex;
+      flex-direction: row;
+      justify-content: baseline;
+      padding: 7em 0;
+   }
+
+   .suporte__suporte-tecnico__texto {
+      width: 40%;
+      margin: auto;
+      text-align: left;
+
+   }
+
+   .suporte__suporte-tecnico__botao {
+      width: 30%;
+      padding: 20px 0;
+      margin: 0 auto;
+   }
+
+   .suporte__suporte-tecnico__titulo {
+      font-size: 1.6em;
+   }
+
+   .suporte__suporte-tecnico__texto__texto {
+      font-size: 1.2em;
+      line-height: 1.2em;
+   }
 }
