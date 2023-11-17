@@ -20,7 +20,7 @@
 .suporte__suporte-tecnico__texto__texto {
    font-size: 0.9rem;
    line-height: 20px;
-   margin: 1.5em 0 0 0;
+   margin: 1.5em 0;
 }
 
 .suporte__suporte-tecnico__botao {
@@ -69,5 +69,6 @@
    .suporte__suporte-tecnico__texto__texto {
       font-size: 1.2em;
       line-height: 1.2em;
+      margin: 1.5em 0 0 0;
    }
 }
