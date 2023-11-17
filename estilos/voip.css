@@ -35,7 +35,7 @@
 }
 
 .voip_icones {
-   height: 60px;
+   height: 40px;
    display: inline;
 }
 
@@ -83,13 +83,13 @@
    
    .voip__texto {
       width: 50%;
-      margin: 1em 0 1.5em 0;
+      margin: 1em 0 0 0;
    }
    
    .voip__vantagens-voip {
       flex-direction: row;
       justify-content: space-between;
-      margin-top: 0.5em;
+      margin-top: 2.5em;
    }
 
    .voip__botao {
@@ -99,12 +99,17 @@
    .voip__botao-tablet {
       display: block;
       margin: 0;
-
+      padding: 20px;
+      width: 30%;
+      position: relative;
    }
    
-   .voip__titulo-texto-botao {
-      display: inline;
+   .voip__titulo-texto {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
    }
 
-
+   
+   
 }

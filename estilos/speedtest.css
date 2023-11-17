@@ -1,0 +1,31 @@
+.speedtest {
+   display: none;
+}
+
+@media screen and (min-width: 800px) {
+
+   .speedtest {
+      background: linear-gradient(0deg, rgba(255,255,255,1) 56%, rgba(1,212,255,0.20030120481927716) 100%);
+      display: flex;
+      padding: 3.5em 0 2em 0;
+      text-align: right;
+      gap: 40px;
+      justify-content: center;
+   }
+   
+   .speedtest__texto__titulo {
+      font-size: 1.7em;
+      font-weight: 700;
+   }
+
+   .speedtest__texto__texto {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      margin: 1em 0;
+   }
+
+   .speedtest__speedometer img {
+      height: 100px;
+   }
+
+}

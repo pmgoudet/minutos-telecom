@@ -13,6 +13,7 @@
    font-size: 17px;
    font-weight: 500;
    margin: 1em;
+   line-height: 20px;
 }
 
 .canal-de-vendas__botao {
@@ -27,4 +28,19 @@
    text-decoration: none;
    color: var(--cor-branco);
    font-weight: 500;
+}
+
+
+@media screen and (min-width: 800px) {
+
+   .canal-de-vendas {
+      width: 50%;
+      margin: 2em auto;   
+   }
+
+   .canal-de-vendas__botao {
+      margin: auto;
+      width: 20em;
+   }
+
 }

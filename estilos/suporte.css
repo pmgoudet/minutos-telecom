@@ -36,3 +36,12 @@
    width: 80%;
    margin: auto;
 }
+
+
+@media screen and (min-width: 800px) {
+
+   .suporte__imagem {
+      display: none;
+   }
+
+}
