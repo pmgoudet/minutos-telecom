@@ -98,7 +98,8 @@ header {
 
 .menu-primario {
    color: var(--cor-branco);
-   font-weight: 400;
+   font-weight: 500;
+   transition: 0.3s ease; 
 }
 
 hr {
@@ -110,14 +111,12 @@ hr {
 
 .menu-secundario {
    color: var(--cor-secundaria);
-   font-weight: 600;
+   font-weight: 500;
+   transition: 0.3s ease; 
 }
 
 nav > a:active, a:hover {
    font-weight: bold;
-   padding: 5px;
-   border-radius: 5px;
-   transform: 0.5s;
 } 
 
 
@@ -160,8 +159,6 @@ nav > a:active, a:hover {
 }  
 
 
-
-
 @media screen and (min-width: 1400px) {
 
    header {
@@ -174,18 +171,40 @@ nav > a:active, a:hover {
 
    .logo-content {
       background-color: var(--cor-primaria);
-      height: 100px;
+      height: 130px;
       display: flex;
+      width: 45vw;
    }
 
    .logo {
-      margin: auto;
+      margin-left: 20%;
    }
 
-   .menu-secundario {
-      display: none;
+   #nav__tablet {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+
+     .navegacao__tablet {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      text-align: center;
+    }
+
+   .navegacao {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
 
-   
+   nav > a:active, a:hover {
+      text-decoration: overline;
+      font-weight: 500;
+   } 
+
 }
 

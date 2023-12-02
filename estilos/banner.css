@@ -7,7 +7,7 @@
    display: none;
 }
 
-.banner {
+.banner__texto-desk {
    margin-top: -4px;
    display: flex;
    flex-direction: column;
@@ -18,13 +18,17 @@
    color: white;
 }
 
+.banner {
+   background-color: var(--cor-primaria);
+}
+
 .banner__caixa-alta {
    font-size: 0.7rem;
    font-weight: 400;
    display: inline;
 }
 
-.banner > h2 > img {
+.banner__caixa-alta > img {
    display: inline;
    width: 12px;
 }
@@ -42,7 +46,7 @@
 .banner__texto {
    font-size: 0.9rem;
    font-weight: 300;
-   line-height: 20px;
+   line-height: 1.6em;
 }
 
 .banner__link {
@@ -53,6 +57,10 @@
    text-align: center;
    font-weight: 400;
    font-size: 0.9rem;
+}
+
+.banner__div__imagem {
+   display: none;
 }
 
 
@@ -71,24 +79,88 @@
    }
 
    .banner {
-      padding: 5% 12%;
-      display: block;
+      padding: 5% 10% 0 10%;
+      display: flex;
    }
 
    .banner__titulo { 
-      margin: 10px 0 1.4em;
       width: 40%;
       line-height: 1.2em;
    }
 
+   .banner__texto-desk {
+      padding: 0;
+   }
+   
    .banner__botao {
       position: relative;
-      text-align: right;
-      top: -130px
+      top: -140px;
+      left: 55vw;
    }
 
    .banner__link {
-      padding: 30px;
+      padding: 25px;
    }
+}
+
+
+@media screen and (min-width: 1400px) {
+   
+   .imagem-home-tablet {
+      display: none;
+   }
+
+   .banner__botao {
+      margin-top: 1em;
+      top: 0;
+      left: 0;
+   }
+
+   .banner {
+      margin: 0;
+      padding: 0;
+      top: -1px;
+      display: flex;
+      box-sizing: border-box;
+      gap: 0;
+      height: 600px;
+   }
+
+   .banner__texto-desk {
+      width: 42vw;
+      height: 700px;
+      position: relative;
+      bottom: -3px;
+      padding: 5% 8% 5% 8.5%;
+   }
+
+   .banner__titulo { 
+      width: 70%;
+      line-height: 1.2em;
+   }
+
+   .banner__texto {
+      width: 80%;
+   }
+
+   .banner__caixa-alta {
+      margin-bottom: -20px;
+   }
+
+   .banner__caixa-alta > img {
+      position: relative;
+      margin-left: -102%;
+      width: 30px;
+   }
+
+   .banner__div__imagem {
+      display: block;
+      height: 750px;
+   }
+
+
+
+
+
 
 }
