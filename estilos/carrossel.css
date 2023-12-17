@@ -2,6 +2,14 @@
    background-color: var(--cor-azulclaro);
 }
 
+.swiper-desk {
+   display: none;
+}
+
+.pos-carrossel-desk {
+   display: none;
+}
+
 .swiper-slide img {
    width: 95%;
    margin: 2.5%;
@@ -33,4 +41,23 @@
       margin-top: 1em;
       justify-content: center;
    }
+}
+
+
+@media screen and (min-width: 1400px) {
+   
+   .pos-carrossel {
+      display: none;
+   }
+
+   .swiper {
+      display: none;
+   }
+
+   .swiper-desk {
+      display: block;
+   }
+
+   
+
 }

@@ -7,6 +7,10 @@
    display: none;
 }
 
+.banner {
+   background-color: var(--cor-primaria);
+}
+
 .banner__texto-desk {
    margin-top: -4px;
    display: flex;
@@ -16,10 +20,6 @@
    padding: 35px 25px;
    background-color: var(--cor-primaria);
    color: white;
-}
-
-.banner {
-   background-color: var(--cor-primaria);
 }
 
 .banner__caixa-alta {
@@ -65,6 +65,9 @@
    transition: 0.2s;
 }
 
+.banner__detalhe-esquerda-inferior {
+   display: none;
+}
 
 .banner__div__imagem {
    display: none;
@@ -72,11 +75,11 @@
 
 
 @media screen and (min-width: 800px) {
-
+   
    .imagem-home {
       display: none;
    }
-
+   
    .imagem-home-tablet {
       display: block;
       background-image: url(../imagens/imagem-home-tablet.png);
@@ -135,7 +138,6 @@
 
    .banner__texto-desk {
       width: 23%;
-      height: 700px;
       position: relative;
       bottom: -3px;
       padding: 5% 8% 5% 8%;
@@ -163,19 +165,20 @@
 
    .banner__div__imagem {
       display: block;
-      height: 750px;
+      height: 600px;
       width: 61%;
 
    }
 
    .banner__div__imagem__imagem {
-      height: 750px;
+      height: 730px;
       background-image: url(../imagens/imagem-home-desk.png);
       background-size: cover;
       margin-top: -130px;
    }
 
    .banner__detalhe-esquerda-inferior {
+      display: block;
       height: 100px;
       margin-left: -100px;
       margin-top: 35px;

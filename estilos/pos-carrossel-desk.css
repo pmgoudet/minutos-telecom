@@ -1,0 +1,23 @@
+@media screen and (min-width: 1400px) {
+   
+   .pos-carrossel-desk {
+      display: flex;
+      margin: 5% 10%;
+      justify-content: center;
+      gap: 100px;
+   }
+
+   .swiper-slide-desk > img {
+      height: 400px;
+   }
+
+   .pos-carrossel__texto {
+      display: block;
+      width: 30%;
+   }
+
+   .pos-carrossel__texto__texto {
+      padding: 20px 0 40px 0;
+   }
+
+}

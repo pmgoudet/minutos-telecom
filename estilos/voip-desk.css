@@ -1,0 +1,36 @@
+@media screen and (min-width: 1400px) { 
+
+   .voip {
+      display: none;
+   }
+
+   .voip-desk {
+      display: flex;
+      justify-content: center;
+      
+   }
+
+   .voip-desk__quadrados-esquerda {
+      background-color: var(--cor-cinza);
+      width: 200px;
+   }
+
+   .voip-desk__quadrados-esquerda__link-dedicado {
+      padding: 10px;
+      margin: 50px;
+   }
+
+   .voip-desk__quadrados-esquerda__link-dedicado__texto,
+   .voip-desk__quadrados-esquerda__banda-larga__texto {
+      color: var(--cor-branco);
+   }
+
+   .voip-desk__quadrado-centro {
+      background-color: var(--cor-botao);
+   }
+
+   .voip__titulo-texto {
+      display: block;
+   }
+
+}

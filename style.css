@@ -6,7 +6,9 @@
 @import url(/estilos/banner.css);
 @import url(/estilos/carrossel.css);
 @import url(/estilos/pos-carrossel.css);
+@import url(/estilos/pos-carrossel-desk.css);
 @import url(/estilos/voip.css);
+@import url(/estilos/voip-desk.css);
 @import url(/estilos/canal-de-vendas.css);
 @import url(/estilos/speedtest.css);
 @import url(/estilos/bureau-tech.css);
