@@ -59,6 +59,13 @@
    font-size: 0.9rem;
 }
 
+.banner__link:hover {
+   font-weight: 600;
+   text-decoration: none;
+   transition: 0.2s;
+}
+
+
 .banner__div__imagem {
    display: none;
 }
@@ -127,11 +134,12 @@
    }
 
    .banner__texto-desk {
-      width: 42vw;
+      width: 23%;
       height: 700px;
       position: relative;
       bottom: -3px;
-      padding: 5% 8% 5% 8.5%;
+      padding: 5% 8% 5% 8%;
+      background-color: transparent;
    }
 
    .banner__titulo { 
@@ -156,10 +164,22 @@
    .banner__div__imagem {
       display: block;
       height: 750px;
+      width: 61%;
+
    }
 
+   .banner__div__imagem__imagem {
+      height: 750px;
+      background-image: url(../imagens/imagem-home-desk.png);
+      background-size: cover;
+      margin-top: -130px;
+   }
 
-
+   .banner__detalhe-esquerda-inferior {
+      height: 100px;
+      margin-left: -100px;
+      margin-top: 35px;
+   }
 
 
 

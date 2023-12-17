@@ -82,6 +82,7 @@ header {
 
 #nav__tablet {
    display: none;
+   z-index: 1;
 }
 
 .navegacao {
@@ -173,7 +174,7 @@ nav > a:active, a:hover {
       background-color: var(--cor-primaria);
       height: 130px;
       display: flex;
-      width: 45vw;
+      width: 40%;
    }
 
    .logo {
