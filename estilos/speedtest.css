@@ -2,6 +2,10 @@
    display: none;
 }
 
+.speedtest-desk {
+   display: none;
+}
+
 @media screen and (min-width: 800px) {
 
    .speedtest {
@@ -30,3 +34,42 @@
    }
 
 }
+
+@media screen and (min-width: 1400px) {
+
+   .speedtest {
+      display: none;
+   }
+   
+   .speedtest-desk {
+      display: block;
+      padding: 100px 0;
+   }
+
+   .speedtest__texto__titulo {
+      text-align: center;
+      font-size: 30px;
+   }
+
+   .speedtest__texto__texto {
+      text-align: center;
+      font-size: 20px;
+   }
+
+   .speedtest__speedometer {
+      text-align: center;
+   }
+
+   .speedtest__speedometer img {
+      height: 200px;
+   }
+
+
+}
+
+
+
+
+
+
+

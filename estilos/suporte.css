@@ -72,3 +72,24 @@
       margin: 1.5em 0 0 0;
    }
 }
+
+@media screen and (min-width: 1400px) {
+
+   .suporte__imagem {
+      display: block;
+   }
+
+   .suporte {
+      display: flex;
+   }
+
+   .suporte__imagem {
+      width: 50%;
+      height: auto;
+   }
+
+   .suporte__suporte-tecnico {
+      height: auto;
+   }
+
+}

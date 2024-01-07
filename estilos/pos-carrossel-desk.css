@@ -2,7 +2,7 @@
    
    .pos-carrossel-desk {
       display: flex;
-      margin: 5% 10%;
+      padding: 5% 10%;
       justify-content: center;
       gap: 100px;
    }

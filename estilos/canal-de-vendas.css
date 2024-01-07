@@ -44,3 +44,27 @@
    }
 
 }
+
+
+@media screen and (min-width: 1400px) { 
+
+   .canal-de-vendas {
+      background-image: url(../imagens/canal-de-vendas-desk.png);
+      background-size: cover;
+   }
+
+   .canal-de-vendas {
+      width: 100%;
+      height: 400px;
+      padding: 180px 0 40px 0;
+      margin: 0; 
+   }
+
+   .canal-de-vendas__quadrado-branco-desk {
+      background-color: var(--cor-branco);
+      width: 40%;
+      margin: auto;
+      padding: 60px 0;
+   }
+
+}
