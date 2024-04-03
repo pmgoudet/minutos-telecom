@@ -1,6 +1,7 @@
 .imagem-home {
    width: 100vw;
    margin-top: -1px;
+   font: var();
 }
 
 .imagem-home-tablet {
@@ -115,74 +116,6 @@
 
 
 @media screen and (min-width: 1400px) {
-   
-   .imagem-home-tablet {
-      display: none;
-   }
-
-   .banner__botao {
-      margin-top: 1em;
-      top: 0;
-      left: 0;
-   }
-
-   .banner {
-      margin: 0;
-      padding: 0;
-      top: -1px;
-      display: flex;
-      box-sizing: border-box;
-      gap: 0;
-      height: 600px;
-   }
-
-   .banner__texto-desk {
-      width: 23%;
-      position: relative;
-      bottom: -3px;
-      padding: 5% 8% 5% 8%;
-      background-color: transparent;
-   }
-
-   .banner__titulo { 
-      width: 70%;
-      line-height: 1.2em;
-   }
-
-   .banner__texto {
-      width: 80%;
-   }
-
-   .banner__caixa-alta {
-      margin-bottom: -20px;
-   }
-
-   .banner__caixa-alta > img {
-      position: relative;
-      margin-left: -102%;
-      width: 30px;
-   }
-
-   .banner__div__imagem {
-      display: block;
-      height: 600px;
-      width: 61%;
-
-   }
-
-   .banner__div__imagem__imagem {
-      height: 730px;
-      background-image: url(../imagens/imagem-home-desk.png);
-      background-size: cover;
-      margin-top: -130px;
-   }
-
-   .banner__detalhe-esquerda-inferior {
-      display: block;
-      height: 100px;
-      margin-left: -100px;
-      margin-top: 35px;
-   }
 
 
 

@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.principal {
+   width: 100%;
+   height: 100vh;
+   display: grid;
+   grid-template-rows: 30% 80%;
+   grid-template-columns: 40% 60%;
+   gap: 0;
+ }
+ 
+
+.quadrado1 {
+   background-color: aqua;
+}
+
+.quadrado2 {
+   background-color: rgb(17, 36, 36);
+}
+
+.quadrado3 {
+   background-color: rgb(138, 108, 17);
+}
+
+.quadrado4 {
+   background-color: rgb(5, 31, 31);
+}
+
