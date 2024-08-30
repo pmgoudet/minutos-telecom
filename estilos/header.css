@@ -306,7 +306,7 @@
    #header__nav-bar.active #menu {
       display: block;
       justify-content: center;
-      height: 19em;
+      height: 35vh;
       opacity: 1;
       visibility: visible;
    }
@@ -329,6 +329,8 @@
       flex-direction: column;
       opacity: 1;
       max-height: auto;
+      padding: 10px 0;
+      justify-content: center;
    }
 
    .header__nav-bar__lista-hidden {
@@ -368,12 +370,16 @@
    
    .header__description__texto {
       line-height: 2vh;
-      font-size: 3vw;
+      font-size: 3.5vw;
       text-align: left;
    }
 
    .header__description__botao {
       margin-top: 3vh;
+   }
+
+   .header__description__botao-link {
+      font-size: 3.5vw;
    }
 
 
