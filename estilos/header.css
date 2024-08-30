@@ -373,6 +373,7 @@
       line-height: 3vh;
       font-size: 3.5vw;
       text-align: left;
+      padding: 3vh 0 3vh 0; 
    }
 
    .header__description__botao {
