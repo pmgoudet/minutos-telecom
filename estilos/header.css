@@ -360,18 +360,18 @@
    }
 
    .header__description__chamada {
-      font-size: 3vw;
+      font-size: 3.5vw;
       margin-top: -1.3vh;
    }
 
    .header__description__title {
-      font-size: 7vw;
+      font-size: 7.5vw;
       line-height: 4vh;
    }
    
    .header__description__texto {
       line-height: 3vh;
-      font-size: 3.5vw;
+      font-size: 4vw;
       text-align: left;
       padding: 2vh 0 2vh 0; 
    }
@@ -381,7 +381,7 @@
    }
 
    .header__description__botao-link {
-      font-size: 4vw;
+      font-size: 4.5vw;
       padding: 23px;
    }
 
