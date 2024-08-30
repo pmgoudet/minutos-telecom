@@ -1,301 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minutos Telecom</title>
-    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+
+   <title>Minutos Telecom</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo-content">
-            <img class="logo" src="imagens/logo-fundo-escuro.png" alt="Logo">
-        </div>
-        <nav id="nav">
-            <button id="btn-mobile">
-                <span id="hamburguer"></span>
-            </button>
-            <menu id="menu">
-                <ul class="navegacao">
-                    <li><a class="menu-primario" href="#">Início</a></li>
-                    <li><a class="menu-primario" href="#">Residencial</a></li>
-                    <li><a class="menu-primario" href="#">Corporativo</a></li>
-                    <li><a class="menu-primario" href="#">Área do Cliente</a></li>
-                    <li><a class="menu-primario" href="#">Contato</a></li>
-                    <li><hr></li>
-                    <li><a class="menu-secundario" href="#">Contratos</a></li>
-                    <li><a class="menu-secundario" href="#">Speed Test</a></li>
-                    <li><a class="menu-secundario" href="#">Suporte</a></li>
-                </ul>
-            </menu>
-        </nav>
-        <nav id="nav__tablet">
-            <ul class="navegacao navegacao__tablet">
-                <li><a class="menu-primario" href="#">Início</a></li>
-                <li><a class="menu-primario" href="#">Residencial</a></li>
-                <li><a class="menu-primario" href="#">Corporativo</a></li>
-                <li><a class="menu-primario" href="#">Área do Cliente</a></li>
-                <li><a class="menu-primario" href="#">Contato</a></li>
-                <li><a class="menu-secundario" href="#">Contratos</a></li>
-                <li><a class="menu-secundario" href="#">Speed Test</a></li>
-                <li><a class="menu-secundario" href="#">Suporte</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <img class="imagem-home" src="imagens/imagem-home.jpg">
-        <div class="imagem-home-tablet"></div>
-        
-        <section class="banner">
-            <div class="banner__texto-desk">
-                <h2 class="banner__caixa-alta">DESCUBRA NOVAS POSSIBILIDADES <img src="imagens/icone-wireless.png"></h2>
-                <h1 class="banner__titulo">Projetos Referência em <strong>Internet Empresarial</strong></h1>
-                <p class="banner__texto">Obtenha alto desempenho para sua empresa com qualidade e suporte técnico rápido. Conheça nossos projetos de internet empresarial de excelência com preço justo.</p>
-                <div class="banner__botao"><a class="banner__link" href="corporativo.html">Conheça nossas soluções!</a></div>
-                <img class="banner__detalhe-esquerda-inferior" src="imagens/banner__detalhe-inferior-esquerdo.png">
-            </div>
-            <div class="banner__div__imagem">
-                <div class="banner__div__imagem__imagem"></div>
-            </div>
-        </section>
 
-        <section class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="imagens/test-carrossel1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="imagens/test-carrossel2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="imagens/test-carrossel3.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="imagens/test-carrossel3.jpg" alt=""></div>
+   <header>
+      <div class="container">
+         <div class="grid1 logo-container">
+            <img class="header__logo" src="imagens/logo-fundo-escuro.png" alt="Logo">
+         </div>
+         <div class="grid2 header__nav-bar-container">
+            <nav class="header__nav-bar" id="header__nav-bar">
+               <button id="btn-mobile">
+                  <span id="hamburguer"></span>
+               </button>
+               <menu id="menu">
+                  <ul class="header__nav-bar__lista">
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-primario" href="#">Início</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-primario" href="#">Residencial</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-primario" href="#">Corporativo</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-primario" href="#">Área do Cliente</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-primario" href="#">Contato</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-secundario" href="#">Contratos</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-secundario" href="#">Speed Test</a></li>
+                     <li><a class="header__nav-bar__lista__item header__nav-bar__lista__menu-secundario" href="#">Suporte</a></li>
+                  </ul>
+               </menu>
+            </nav>
+         </div>
+         <div class="grid3 header__description">
+            <img class="header__description__anteninha" src="imagens/icone-wireless.png">
+            <h2 class="header__description__chamada">DESCUBRA NOVAS POSSIBILIDADES</h2>
+            <h1 class="header__description__title">Projetos Referência em <strong>Internet Empresarial</strong></h1>
+            <p class="header__description__texto">Obtenha alto desempenho para sua empresa com qualidade e suporte técnico rápido. Conheça nossos projetos de internet empresarial de excelência com preço justo.</p>
+            <div class="header__description__botao">
+               <a class="header__description__botao-link" href="#">
+                  Conheça nossas soluções!
+               </a>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </section>
+            <img class="header__description__detalhe-esquerda-inferior" src="imagens/banner__detalhe-inferior-esquerdo.png">
+         </div>
+         <div class="grid4 header__img"></div>
+      </div>
+   </header>
 
-        <section class="pos-carrossel">
-            <div class="pos-carrossel__texto">
-                <h2 class="pos-carrossel__texto__titulo">Desempenho de <br><strong>ponta a ponta</strong></h2>
-                <p class="pos-carrossel__texto__texto">Oferecemos serviços de alta capacidade e disponibilidade por meio de uma rede robusta e monitoramento 24/7.</p>
-            </div>
-            <div class="pos-carrossel__serviços">
-                <a class="pos-carrossel__serviços__link-dedicado" href="#">
-                    <h3 class="pos-carrossel__serviços__link-dedicado__texto">Link de Internet Dedicado</h3>
-                </a>
-                <a class="pos-carrossel__serviços__banda-larga" href="#">
-                    <h3 class="pos-carrossel__serviços__banda-larga__texto">Internet Banda Larga</h3>
-                </a>
-            </div>
-            <h2 class="pos-carrossel__frase">Suas reuniões em alta definição, <strong>sem travar</strong>. </h2>
-        </section>
+   <main>
+      <div class="div">
+      </div>
+   </main>
 
-        <section class="voip">
-             <div class="voip__titulo-texto-botao">
-                 <h2 class="voip__titulo">Tecnologia VoIP</h2>
-                 <div class="voip__titulo-texto">
-                     <p class="voip__texto">Chamadas de alta qualidade para qualquer lugar do mundo por um <strong>preço muito mais acessível</strong>.</p>
-                     <div class="voip__botao-tablet">
-                         <a class="voip__link" href="#">Verifique a disponibilidade <br>
-                             deste serviço no seu local.</a>
-                     </div>
-                 </div>
-             </div>
-             <div class="voip__vantagens-voip">
-                 <div class="voip_icones_palavras">
-                     <img class="voip_icones" src="imagens/icon-economia.png">
-                     <h4 class="voip_palavras">Economia</h4>
-                 </div>
-                 <div class="voip_icones_palavras">
-                     <img class="voip_icones" src="imagens/icon-seguranca.png">
-                     <h4 class="voip_palavras">Segurança</h4>
-                 </div>
-                 <div class="voip_icones_palavras">
-                     <img class="voip_icones" src="imagens/icon-versatil.png">
-                     <h4 class="voip_palavras">Versatilidade</h4>
-                 </div>
-                 <div class="voip_icones_palavras">
-                     <img class="voip_icones" src="imagens/icon-mobilidade.png">
-                     <h4 class="voip_palavras">Mobilidade</h4>
-                 </div>
-             </div>
-             <div class="voip__botao">
-                 <a class="voip__link" href="#">Verifique a disponibilidade <br>
-                 deste serviço no seu local.</a>
-             </div>
-        </section>
-        
-        <div class="fundo-degrade-pos-carrossel">
-            <section class="pos-carrossel-desk">
-                <div class="pos-carrossel__texto">
-                    <h2 class="pos-carrossel__texto__titulo">Desempenho de <br><strong>ponta a ponta</strong></h2>
-                    <p class="pos-carrossel__texto__texto">Oferecemos serviços de alta capacidade e disponibilidade por meio de uma rede robusta e monitoramento 24/7.</p>
-                    <div class="banner__botao">
-                        <a href="#" class="banner__link">Conheça nossos planos</a>
-                    </div>
-                </div>
-                <div class="swiper-desk">
-                    <div class="swiper-slide-desk"><img src="imagens/Vector.png" alt=""></div>
-                </div>
-            </section>
-            <section class="voip-desk">
-                <div class="voip-desk__quadrados-esquerda">
-                    <div class="voip-desk__quadrados-esquerda__link-dedicado">
-                        <h3 class="voip-desk__quadrados-esquerda__link-dedicado__texto"><a href="#">Link de Internet Dedicado</a></h3>
-                    </div>
-                    <div class="voip-desk__quadrados-esquerda__banda-larga" href="#">
-                        <h3 class="voip-desk__quadrados-esquerda__banda-larga__texto"><a href="#">Internet Banda Larga</a></h3>
-                    </div>
-                </div>
-                <div class="voip-desk__quadrado-centro">
-                    <h2 class="voip__titulo">Tecnologia VoIP</h2>
-                    <div class="voip__titulo-texto">
-                        <p class="voip__texto">Chamadas de alta qualidade para qualquer lugar do mundo por um <strong>preço muito mais acessível</strong>.</p>
-                        <div class="voip__botao-tablet">
-                            <a class="voip__link" href="#">Verifique a disponibilidade <br>
-                            deste serviço no seu local.</a>
-                        </div>
-                        <div class="voip__vantagens-voip">
-                            <div class="voip_icones_palavras">
-                                <img class="voip_icones" src="imagens/icon-economia.png">
-                                <h4 class="voip_palavras">Economia</h4>
-                            </div>
-                            <div class="voip_icones_palavras">
-                                <img class="voip_icones" src="imagens/icon-seguranca.png">
-                                <h4 class="voip_palavras">Segurança</h4>
-                            </div>
-                            <div class="voip_icones_palavras">
-                                <img class="voip_icones" src="imagens/icon-versatil.png">
-                                <h4 class="voip_palavras">Versatilidade</h4>
-                            </div>
-                            <div class="voip_icones_palavras">
-                                <img class="voip_icones" src="imagens/icon-mobilidade.png">
-                                <h4 class="voip_palavras">Mobilidade</h4>
-                            </div>
-                        </div>
-                        <div class="voip__botao">
-                            <a class="voip__link" href="#">Verifique a disponibilidade <br>
-                            deste serviço no seu local.</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pos-carrossel__frase-div">
-                    <h2 class="pos-carrossel__frase">Suas reuniões em alta definição, <strong>sem travar</strong>.
-                    </h2>
-                </div>
-            </section>
-        </div>
-
-        <section class="speedtest">
-            <div class="speedtest__texto">
-                <h2 class="speedtest__texto__titulo">SpeedTest</h2>
-                <p class="speedtest__texto__texto">Teste a velocidade <br>
-                    de sua conexão.</p>
-            </div>
-            <div class="speedtest__speedometer">
-                <img src="imagens/speedometer.png">
-            </div>
-        </section>
-
-        <section class="foto-pcs">
-            <img src="imagens/bureau-tech.png">
-        </section>
-
-        <section class="canal-de-vendas">
-            <div class="canal-de-vendas__quadrado-branco-desk">
-                <h2 class="canal-de-vendas__titulo">Canal de vendas</h2>
-                <p class="canal-de-vendas__texto">Precisa de mais informações, tirar dúvidas ou contratar nossos serviços?</p>
-                <div class="canal-de-vendas__botao">
-                    <a href="#" class="canal-de-vendas__link">Entre em contato pelo (19) 3081.0000</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="speedtest-desk">
-            <div class="speedtest__texto">
-                <h2 class="speedtest__texto__titulo">SpeedTest</h2>
-                <p class="speedtest__texto__texto">Teste a velocidade de sua conexão.</p>
-            </div>
-            <div class="speedtest__speedometer">
-                <img src="imagens/speedometer.png">
-            </div>
-        </section>
-
-        <section class="suporte">
-            <img class="suporte__imagem" src="imagens/imagem-suporte.jpg">
-            <div class="suporte__container-desk">
-                <div class="suporte__suporte-tecnico">
-                <div class="suporte__suporte-tecnico__texto">
-                    <h2 class="suporte__suporte-tecnico__titulo">Precisando de suporte técnico?</h2>
-                    <p class="suporte__suporte-tecnico__texto__texto">Nosso suporte é dado via WhatsApp com maior agilidade e sem robôs.</p>
-                </div>
-                <button class="suporte__suporte-tecnico__botao" id="botaoSuporte">Entre em contato pelo <br> (19) 3081.0000</button>
-            </div>
-        </section>
-
-        <section class="redes">
-            <div class="redes-sociais">
-                <a href="#" class="link_face">
-                    <img src="imagens/logo-face.png" alt="Facebook">
-                    <p>Facebook</p>
-                </a>
-                <a href="#" class="link_insta">
-                    <img src="imagens/logo-insta.png" alt="Instagram">
-                    <p>Instagram</p>
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="contato">
-        <div class="contato__area-util">
-            <div class="contato__texto">
-                <h2 class="contato__titulo">Fale Conosco</h2>
-                <p class="contato__dados"><img src="imagens/tel.png" class="contato__icones"> Telefone: +55 19 3081-0000</p>
-                <p class="contato__dados"><img src="imagens/zap.png" class="contato__icones"> WhatsApp: +55 19 3081-0000</p>
-                <p class="contato__dados"><img src="imagens/sac.png" class="contato__icones"> SAC: 0800 602 7300</p>
-                <p class="contato__dados"><img src="imagens/mail.png" class="contato__icones"> contato@minutostelecom.com.br</p>
-                <p class="contato__dados"><img src="imagens/icon-suporte.png" class="contato__icones"> suporte@minutostelecom.com.br</p>
-                <p class="contato__dados"><img src="imagens/endereço.png" class="contato__icones"> Av. Marechal Rondon, 700 – Sala 310 <br> Campinas - SP</p>
-            </div class="contato__texto">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5493154878195!2d-47.08913840171053!3d-22.893101237770367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cfd75353e67f%3A0x58291dbe79203e5f!2sAv.%20Mal.%20Rondon%2C%20700%20-%20Jardim%20Chapad%C3%A3o%2C%20Campinas%20-%20SP%2C%2013070-173%2C%20Brasil!5e0!3m2!1spt-BR!2sfr!4v1697230501500!5m2!1spt-BR!2sfr" width="330" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
-        </div>
-        <hr class="linha">
-        <p class="copyright">© Copyright 2020 - 2023 <br>
-            Criado por Pedrão <br>
-            All Rights Reserved</p>
-    </footer>
-    
-    <script src="js/main.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs"></script>
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
-      
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 1, 
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-            autoplay: {
-                delay: 3000,
-            },
-            breakpoints: {800: {
-                slidesPerView: 3,
-            }
-
-        }});
-    </script>
-
+   <script src="js/script.js"></script>
 </body>
+
 </html>
-
-
-
-<!-- Images by ibrandify on Freepik -->

@@ -1,20 +1,10 @@
 @charset "UFT-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@import url(/estilos/nav.css);
-@import url(/estilos/banner.css);
-@import url(/estilos/carrossel.css);
-@import url(/estilos/pos-carrossel.css);
-@import url(/estilos/pos-carrossel-desk.css);
-@import url(/estilos/voip.css);
-@import url(/estilos/voip-desk.css);
-@import url(/estilos/canal-de-vendas.css);
-@import url(/estilos/speedtest.css);
-@import url(/estilos/bureau-tech.css);
-@import url(/estilos/suporte.css);
-@import url(/estilos/redes.css);
-@import url(/estilos/footer.css);
+@import url(/estilos/header.css);
+
+
 
 :root {
     --cor-primaria: #124A9F;
@@ -30,8 +20,14 @@
     --fonte-principal: 'Inter', sans-serif;
 }
 
-*{
+* {
     font-family: var(--fonte-principal);
     text-decoration: none;
     fill: var(--cor-branco);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
