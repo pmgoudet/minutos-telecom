@@ -295,7 +295,7 @@
 
    .header__nav-bar {
       padding: 0;
-      padding: 2vh;
+      padding: 2vh 3vh 4vh 3vh;
       flex-direction: column;
       justify-content: start;   
       text-align: center;   
@@ -373,7 +373,7 @@
       line-height: 3vh;
       font-size: 3.5vw;
       text-align: left;
-      padding: 3vh 0 3vh 0; 
+      padding: 2vh 0 2vh 0; 
    }
 
    .header__description__botao {
