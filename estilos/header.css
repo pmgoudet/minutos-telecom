@@ -301,6 +301,7 @@
       text-align: center;   
       background-color: var(--cor-primaria);
       height: auto;
+      opacity: 100%;
    }
    
    #header__nav-bar.active #menu {
@@ -369,7 +370,7 @@
    }
    
    .header__description__texto {
-      line-height: 2vh;
+      line-height: 3vh;
       font-size: 3.5vw;
       text-align: left;
    }
@@ -379,7 +380,8 @@
    }
 
    .header__description__botao-link {
-      font-size: 3.5vw;
+      font-size: 4vw;
+      padding: 23px;
    }
 
 
