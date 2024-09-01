@@ -1,4 +1,4 @@
-.container {
+.header-container {
    height: 100vh;
    width: 100vw;
    display: grid;
@@ -50,7 +50,6 @@
    display: flex;
    width: 90%;
    justify-content: space-between;
-   padding-left: 30px;
    margin: auto;
 }
 
@@ -140,9 +139,10 @@
 
 @media screen and (max-width: 1024px) {
 
-   .container {
+   .header-container {
       display: flex;
       flex-direction: column;
+      height: auto;
    }
 
    .logo-container {
@@ -254,7 +254,7 @@
       display: flex;
       background: none;
       cursor: pointer;
-      margin: auto;
+      margin: 10px auto 0 auto;
       font-size: .7rem;
       border: none;
       color: var(--cor-branco);
@@ -295,7 +295,7 @@
 
    .header__nav-bar {
       padding: 0;
-      padding: 2vh 3vh 4vh 3vh;
+      padding: 2vh 3vh 2vh 3vh;
       flex-direction: column;
       justify-content: start;   
       text-align: center;   
@@ -384,6 +384,5 @@
       font-size: 4.5vw;
       padding: 23px;
    }
-
 
 }

@@ -13,9 +13,8 @@
 </head>
 
 <body>
-
    <header>
-      <div class="container">
+      <div class="header-container">
          <div class="grid1 logo-container">
             <img class="header__logo" src="imagens/logo-fundo-escuro.png" alt="Logo">
          </div>
@@ -55,11 +54,53 @@
    </header>
 
    <main>
-      <div class="div">
-      </div>
+      <section class="slider-container">
+         <div class="slider-container__slider">
+            <div id="slider">
+               <input type="radio" name="slider" id="s1">
+               <input type="radio" name="slider" id="s2">
+               <input type="radio" name="slider" id="s3" checked>
+               <input type="radio" name="slider" id="s4">
+               <input type="radio" name="slider" id="s5">
+               
+               <label for="s1" class="slider__slides" id="slide1">
+                  <a href="#" class="slider-button-link">Saiba mais</a>
+               </label>
+               <label for="s2" class="slider__slides" id="slide2">
+                  <a href="#" class="slider-button-link">Saiba mais</a>
+               </label>
+               <label for="s3" class="slider__slides" id="slide3">
+                     <a href="#" class="slider-button-link">Saiba mais</a>
+               </label>
+               <label for="s4" class="slider__slides" id="slide4">
+                  <a href="#" class="slider-button-link">Saiba mais</a>
+               </label>
+               <label for="s5" class="slider__slides" id="slide5">
+                  <a href="#" class="slider-button-link">Saiba mais</a>
+               </label>
+            </div>
+         </div>
+         <div class="slider-container__descricao">
+            <div class="slider-container__descricao-titulo-e-texto">
+               <h2 class="slider-container__descricao__titulo">Desempenho de <strong>ponta a ponta</strong></h2>
+               <p class="slider-container__descricao__texto">Oferecemos serviços de alta capacidade e disponibilidade por meio de uma rede robusta e monitoramento 24/7.</p>
+            </div>
+            <div class="slider-container__descricao__botao">
+               <a class="slider-container__descricao__botao-link" href="#">
+                  Planos residenciais
+               </a>
+               <a class="slider-container__descricao__botao-link" href="#">
+                  Planos corporativos
+               </a>
+            </div>
+         </div>
+       </section>
+
    </main>
 
    <script src="js/script.js"></script>
+   
 </body>
 
 </html>
+
