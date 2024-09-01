@@ -323,6 +323,14 @@
       }
    }
 
+   .slider-button-link {
+      font-weight: 700;
+      font-size: 2.5vh;
+      padding: 1vh 9vw;
+      bottom: 2vh;
+      right: 21%;
+   }
+
    .slider-container__descricao {
       display: block;
    }
