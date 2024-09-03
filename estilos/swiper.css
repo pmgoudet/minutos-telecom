@@ -185,11 +185,14 @@
 
    .slider-container__descricao {
       order: 2;
+      padding: 5vh 10vw;
+      display: flex;
+      gap: 10vw;
    }
    
    .slider-container__slider {
       order: 1;
-      height: 32vh;
+      height: auto;
    }
 
    .slider {
@@ -233,18 +236,12 @@
       background-image: url(../imagens/test-carrossel3_tablet.jpg);
    }
 
-   .slider-container__descricao {
-      padding: 5vh 10vw;
-      display: flex;
-      gap: 10vw;
-   }
-
    .slider-container__descricao-titulo-e-texto {
       text-align: right;
    }
    
    .slider-container__descricao__titulo {
-      font-size: 4.2vh;
+      font-size: 4vh;
       padding-bottom: 3vh;
    }
       
@@ -256,96 +253,106 @@
    .slider-container__descricao__botao {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      gap: 2vw;
+      justify-content: end;
+      gap: 3vh;
       margin: 0;
-      padding: 3vw 0;
+      padding: 0;
       width: 100%;
    }
    
    .slider-container__descricao__botao-link {
       color: var(--cor-branco);
       background-color: var(--cor-botao);
-      font-size: 3vw;
+      font-size: 2vh;
       padding: 2vh;
       border-radius: 10px;
-   }
-   
-
-   @media screen and (max-width: 480px)  {
-      
-      .slider-container {
-         padding: 3vh 0;
-      }
-
-      .slider-container__slider {
-         justify-content: space;
-      }
-
-      #slider {
-         width: 90%;
-         margin: auto;
-         height: 100%;
-         perspective: 1000px;
-         transform-style: preserve-3d;  
-      }
-
-      #slider label {
-         width: 90%;
-      }
-
-      .slider__slides {
-         margin: auto;
-      }
-
-      #s1:checked ~ #slide4, #s2:checked ~ #slide5,
-      #s3:checked ~ #slide1, #s4:checked ~ #slide2,
-      #s5:checked ~ #slide3 {
-         transform: translate3d(-20%,0,-200px);
-      }
-
-      #s1:checked ~ #slide5, #s2:checked ~ #slide1,
-      #s3:checked ~ #slide2, #s4:checked ~ #slide3,
-      #s5:checked ~ #slide4 {
-         transform: translate3d(-10%,0,-100px);
-      }
-
-      #s1:checked ~ #slide2, #s2:checked ~ #slide3,
-      #s3:checked ~ #slide4, #s4:checked ~ #slide5,
-      #s5:checked ~ #slide1 {
-         transform: translate3d(10%,0,-100px);
-      }
-
-      #s1:checked ~ #slide3, #s2:checked ~ #slide4,
-      #s3:checked ~ #slide5, #s4:checked ~ #slide1,
-      #s5:checked ~ #slide2 {
-         transform: translate3d(20%,0,-200px);
-      }
-   }
-
-   .slider-button-link {
-      font-weight: 700;
-      font-size: 2.5vh;
-      padding: 1vh 9vw;
-      bottom: 2vh;
-      right: 22%;
-   }
-
-   .slider-container__descricao {
-      display: block;
-   }
-
-   .slider-container__descricao-titulo-e-texto {
+      line-height: 3vh;
       text-align: left;
    }
-
-   .slider-container__descricao__botao-link {
-      font-size: 5vw;
-      margin: 1vh 0 0 0;
-   }
    
-   
-
    
 }
 
+@media screen and (max-width: 480px)  {
+      
+   .slider-container {
+      padding: 3vh 0;
+   }
+
+   .slider-container__slider {
+      height: 35vh;
+      justify-content: space;
+   }
+
+   #slider {
+      width: 90%;
+      margin: auto;
+      height: 100%;
+      perspective: 1000px;
+      transform-style: preserve-3d;  
+   }
+
+   #slider label {
+      width: 90%;
+   }
+
+   .slider__slides {
+      margin: auto;
+   }
+
+   #s1:checked ~ #slide4, #s2:checked ~ #slide5,
+   #s3:checked ~ #slide1, #s4:checked ~ #slide2,
+   #s5:checked ~ #slide3 {
+      transform: translate3d(-20%,0,-200px);
+   }
+
+   #s1:checked ~ #slide5, #s2:checked ~ #slide1,
+   #s3:checked ~ #slide2, #s4:checked ~ #slide3,
+   #s5:checked ~ #slide4 {
+      transform: translate3d(-10%,0,-100px);
+   }
+
+   #s1:checked ~ #slide2, #s2:checked ~ #slide3,
+   #s3:checked ~ #slide4, #s4:checked ~ #slide5,
+   #s5:checked ~ #slide1 {
+      transform: translate3d(10%,0,-100px);
+   }
+
+   #s1:checked ~ #slide3, #s2:checked ~ #slide4,
+   #s3:checked ~ #slide5, #s4:checked ~ #slide1,
+   #s5:checked ~ #slide2 {
+      transform: translate3d(20%,0,-200px);
+   }
+
+
+.slider-button-link {
+   font-weight: 700;
+   font-size: 2.5vh;
+   padding: 1vh 9vw;
+   bottom: 2vh;
+   right: 22%;
+}
+
+.slider-container__descricao {
+   display: block;
+}
+
+.slider-container__descricao-titulo-e-texto {
+   text-align: left;
+}
+
+.slider-container__descricao__texto {
+   margin-bottom: 2vh;
+}
+
+.slider-container__descricao__botao {
+   gap: 0;
+}
+
+.slider-container__descricao__botao-link {
+   font-size: 5vw;
+   margin-top: 1vh;
+   text-align: center;
+}
+
+}
