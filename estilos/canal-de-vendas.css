@@ -39,6 +39,12 @@
    width: auto;
 }
 
+.canal-de-vendas__botao:hover {
+   transition: 0.2s;
+   background-color: #011b45;
+   box-shadow: 0 0 10px 2px var(--cor-secundaria);
+}
+
 .canal-de-vendas__link {
    text-decoration: none;
    color: var(--cor-branco);

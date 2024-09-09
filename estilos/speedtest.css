@@ -1,0 +1,60 @@
+.speedtest-desk {
+   display: flex;
+   height: 50vh;
+   justify-content: center;
+   align-items: center;
+   gap: 2vw;
+}
+
+.speedtest__texto__titulo {
+   color: var(--cor-primaria);
+   font-weight: 700;
+   text-align: left;
+   font-size: 6vh;
+}
+
+.speedtest__texto__texto {
+   margin: 1em 0;
+   text-align: left;
+   font-size: 4vh;
+}
+
+.speedtest__speedometer {
+   text-align: right;
+}
+
+.speedtest__speedometer img {
+   height: 30vh;
+}
+
+@media screen and (max-width: 1024px) {
+
+   .speedtest-desk {
+      height: auto;
+   }
+
+   .speedtest-desk {
+      display: flex; 
+      flex-direction: column; 
+      margin: 4vh;
+   }
+
+   .speedtest__speedometer img {
+      height: 20vh;
+   }
+
+   .speedtest__texto__titulo {
+      text-align: center;
+   }
+   
+   .speedtest__texto__texto {
+      text-align: center;
+      font-size: 3.5vh;
+   }
+
+}
+
+
+
+
+
