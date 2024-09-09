@@ -2,7 +2,9 @@
    background-image: url(../imagens/canal-de-vendas-desk.png);
    background-size: cover;
    background-position: center;
-   height: 100vh;
+   
+   background-color: var(--cor-primaria);
+   height: 50vh;
    width: 100%;
    display: flex;
 }
@@ -11,7 +13,7 @@
    background-color: var(--cor-branco);
    width: 40%;
    margin: auto;
-   padding: 11vh 5vw;
+   padding: 5vh 5vw;
 }
 
 .canal-de-vendas__titulo {

@@ -36,7 +36,7 @@
    .speedtest-desk {
       display: flex; 
       flex-direction: column; 
-      margin: 4vh;
+      padding: 4vh;
    }
 
    .speedtest__speedometer img {

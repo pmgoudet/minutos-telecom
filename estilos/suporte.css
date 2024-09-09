@@ -1,17 +1,18 @@
 .suporte {
-   background-image: url(../imagens/bg-suporte.jpg);
+   /* background-image: url(../imagens/bg-suporte.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
+   background-color: var(--cor-primaria);
    display: flex;
-   height: 50vh;
+   height: 100vh;
    color: var(--cor-branco);
    align-items: center;
 }
 
 .suporte__imagem {
-   width: 50vw;
-   height: 50vh;
-   background-image: url(../imagens/imagem-suporte.jpg);
+   width: 45vw;
+   height: 100vh;
+   background-image: url(../imagens/imagem-suporte.jfif);
    background-size: cover;
 }
 
@@ -59,9 +60,18 @@
 
 @media screen and (max-width: 1024px) {
 
+   .suporte {
+      height: auto;
+   }
+
+   .suporte__imagem {
+      height: 50vh;
+   }
+  
+
    .suporte__imagem {
       width: 30vw;
-      background-position: left;
+      background-position: center;
    }
 
    .suporte__descricao {
