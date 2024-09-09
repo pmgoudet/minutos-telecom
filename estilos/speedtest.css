@@ -30,7 +30,7 @@
 @media screen and (max-width: 1024px) {
 
    .speedtest-desk {
-      height: auto;
+      height: 40vh;
    }
 
    .speedtest-desk {
@@ -40,16 +40,17 @@
    }
 
    .speedtest__speedometer img {
-      height: 20vh;
+      height: 15vh;
    }
 
    .speedtest__texto__titulo {
       text-align: center;
+      font-size: 3vh;
    }
    
    .speedtest__texto__texto {
       text-align: center;
-      font-size: 3.5vh;
+      font-size: 2vh;
    }
 
 }
