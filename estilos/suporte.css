@@ -2,7 +2,7 @@
    /* background-image: url(../imagens/bg-suporte.jpg);
    background-repeat: no-repeat;
    background-size: cover; */
-   background-color: var(--cor-primaria);
+   background-color: var(--cor-botao);
    display: flex;
    height: 100vh;
    color: var(--cor-branco);

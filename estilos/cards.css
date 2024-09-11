@@ -118,6 +118,7 @@ article:has(:hover, :focus) {
       font-size: 2vh;
       line-height: 3vh;
    }
+   
 }
 
 
