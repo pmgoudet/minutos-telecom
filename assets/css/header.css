@@ -1,0 +1,149 @@
+.header__logo-container {
+    width: 100vw;
+    background-color: var(--cor-azul-bg);
+    text-align: center;
+}
+
+.header__logo {
+    padding: 40px 0 30px 0;
+}
+
+#btn-mobile {
+    display: flex;
+    background: none;
+    margin: auto;
+    border: none;
+    color: var(--cor-branco);
+}
+
+#hamburguer {
+    width: 25px;
+    border-top: 2px solid;
+}
+ 
+#hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .5s;
+    position: relative;
+}
+
+#menu {
+    display: block;
+    background-color: var(--cor-azul-marinho);
+    border-radius: 10px;
+    height: 0px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 20px;
+}
+
+.header__nav-container {
+    height: auto;
+    background-color: var(--cor-azul-bg);
+}
+
+.header__nav {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: start;   
+    text-align: center;   
+    background-color: var(--cor-primaria);
+    height: auto;
+    opacity: 100%;
+}
+
+#header__nav.active #menu {
+    display: block;
+    justify-content: center;
+    height: 38vh;
+    opacity: 1;
+    visibility: visible;
+}
+
+#header__nav.active #hamburguer {
+    border-top-color: transparent;
+}
+
+#header__nav.active #hamburguer::before {
+    transform: rotate(135deg);
+}
+
+#header__nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+.header__nav__lista {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    max-height: auto;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.header__nav__lista-hidden {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.header__nav__lista__item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 4vh;
+}
+
+.header__nav__lista__menu-primario {
+    color: var(--cor-branco);
+}
+
+.header__nav__lista__menu-secundario {
+    color: var(--cor-azul-agua);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+    .header-container {
+        display: flex;
+    }
+    
+    .header__logo-container, .header__nav-container {
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__logo-container {
+        width: calc(45vw - 10%);
+        padding-left: 10%;
+    }
+    
+    .header__nav-container {
+        width: calc(55vw - 10%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-right: 10%;
+    }
+    
+
+}
