@@ -1,10 +1,21 @@
 // Menu Hamburguer
 
-const mobileBtn = document.querySelector('#btn-mobile')
-const nav = document.querySelector('#header__nav')
+const mobileBtn = document.querySelector('#btn-mobile');
+const nav = document.querySelector('#header__nav');
 
-mobileBtn.addEventListener('click', toggleMenu)
+window.addEventListener('resize', menuResponsif);
+mobileBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
-    nav.classList.toggle('active')
+    nav.classList.toggle('active');
+}
+
+function menuResponsif() {
+    const width = window.innerWidth;
+    
+    if (width > 480) {
+        nav.classList.add('active');
+    } else {
+        nav.classList.remove('active');
+    }
 }
