@@ -19,3 +19,6 @@ function menuResponsif() {
         nav.classList.remove('active');
     }
 }
+
+
+menuResponsif()

@@ -2,10 +2,12 @@
     height: 285px;
     width: 100vw;
     background-image: url(../img/mobile/home-mobile-minutos-telecom.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .banner-txt {
-    padding: 40px 30px 20px 30px;
+    padding: 40px 47px 20px 30px;
     background-color: var(--cor-azul-bg);
     color: var(--cor-branco);
     line-height: 25px;
@@ -58,7 +60,48 @@
 @media screen and (min-width: 480px) {
 
     .banner-img {
-        background-image: url(../img/mobile/home-tablet-minutos-telecom.webp);
+        margin-top: -70px;
+        height: 423px;
+        background-image: url(../img/tablet/home-tablet-minutos-telecom.webp);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner-txt {
+        padding: 40px 75px 20px 75px;
+    }
+
+    .banner-txt__chamada {
+        order: 2;
+    }
+    
+    .banner-txt__icon {
+        margin-left: -25px;
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    .banner-txt__title {
+        font-size: 35px;
+        width: 50%;
+        line-height: 42px;
+    }
+    
+    .banner-txt__texto {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .banner-txt__btn {
+        justify-self: right;
+        position: relative;
+        top: -135px;
+        right: 10px;
+    }
+
+    .header__description__botao-link {
+        font-size: 25px;
     }
 
 } 
