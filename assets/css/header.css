@@ -194,3 +194,56 @@
     }
 
 }
+
+
+@media (min-width: 1025px) {
+
+    .header-container {
+        display: flex;
+    }
+
+    .header__logo-container {
+        width: 45vw;
+        text-align: left;
+    }
+
+    .header__logo {
+        padding-left: 15%;
+    }
+
+    .header__nav-container {
+        width: 55vw;
+    }
+
+    .header__nav__lista {
+        height: 143px;
+        padding-right: 12%;
+    }
+
+    .header__nav__lista__item {
+        font-size: 20px;
+    }
+
+    .dropmenu {
+        top: 96px;
+    }
+
+    #btn-dropmenu img {
+        margin-left: 47px;
+    }
+
+    .header__nav__lista__item:hover,
+    .header__nav__lista__menu-secundario a:hover {
+        color: var(--cor-azul-agua);
+    }
+
+
+
+
+
+
+    .header__nav__lista__menu-secundario {
+        display: none;
+    }
+
+}
