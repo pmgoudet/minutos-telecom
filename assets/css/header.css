@@ -203,12 +203,13 @@
     }
 
     .header__logo-container {
+        height: 143px;
         width: 45vw;
         text-align: left;
     }
 
     .header__logo {
-        padding-left: 15%;
+        padding-left: 22%;
     }
 
     .header__nav-container {
@@ -217,7 +218,7 @@
 
     .header__nav__lista {
         height: 143px;
-        padding-right: 12%;
+        padding: 0 12% 0 0;
     }
 
     .header__nav__lista__item {
@@ -225,7 +226,7 @@
     }
 
     .dropmenu {
-        top: 96px;
+        top: 87px;
     }
 
     #btn-dropmenu img {
@@ -235,15 +236,6 @@
     .header__nav__lista__item:hover,
     .header__nav__lista__menu-secundario a:hover {
         color: var(--cor-azul-agua);
-    }
-
-
-
-
-
-
-    .header__nav__lista__menu-secundario {
-        display: none;
     }
 
 }

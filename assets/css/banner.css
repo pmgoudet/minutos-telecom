@@ -13,6 +13,10 @@
     line-height: 25px;
 }
 
+.banner-txt__deco {
+    display: none;
+}
+
 .flex-chamada-antena {
     display: flex;
     align-items: baseline;
@@ -104,4 +108,62 @@
         font-size: 25px;
     }
 
-} 
+}
+
+@media (min-width: 1025px) {
+
+    .banner-container {
+        display: flex;
+    }
+
+    .banner-txt {
+        order: 0;
+        width: 45%;
+        padding: 0;
+    }
+
+    .banner-txt-container {
+        margin: 100px 18% auto 22%;
+    }
+
+    .banner-img {
+        order: 1;
+        background-image: url(../img/desktop/home-desktop-minutos-telecom.webp);
+        width: 55%;
+        margin-top: -143px;
+        height: 100vh;
+    }
+
+    .banner-txt__title {
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+
+    .banner-txt__texto {
+        width: 100%;
+    }
+
+    .banner-txt__btn {
+        position: static;
+        justify-self: left;
+        margin-top: 80px;
+    }
+
+    .header__description__botao-link {
+        font-size: 20px;
+        transition: 0.3s;
+    }
+
+    .header__description__botao-link:hover {
+        background-color: #02122b;
+    }
+
+    .banner-txt__deco {
+        display: block;
+        position: relative;
+        left: -100px;
+        top: 20px;
+    }
+
+}
