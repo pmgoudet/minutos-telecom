@@ -56,7 +56,7 @@
     padding: 20px;
     background-color: var(--cor-azul-marinho);
     border-radius: 5px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--shadow);
 }
 
 
@@ -78,7 +78,7 @@
     .banner-txt__chamada {
         order: 2;
     }
-    
+
     .banner-txt__icon {
         margin-left: -25px;
         margin-right: 5px;
@@ -90,7 +90,7 @@
         width: 50%;
         line-height: 42px;
     }
-    
+
     .banner-txt__texto {
         font-size: 20px;
         line-height: 30px;
@@ -123,7 +123,7 @@
     }
 
     .banner-txt-container {
-        margin: 100px 18% auto 22%;
+        margin: 60px 10% auto 22%;
     }
 
     .banner-img {
@@ -136,18 +136,19 @@
 
     .banner-txt__title {
         width: 100%;
-        margin-bottom: 50px;
-        font-size: 40px;
+        margin: 20px 0;
+        font-size: 30px;
     }
 
     .banner-txt__texto {
         width: 100%;
+        font-size: 15px;
     }
 
     .banner-txt__btn {
         position: static;
         justify-self: left;
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
     .header__description__botao-link {
@@ -162,8 +163,37 @@
     .banner-txt__deco {
         display: block;
         position: relative;
+        left: -60px;
+        top: -20px;
+        height: 80px;
+    }
+
+}
+
+
+@media (min-width: 1441px) {
+
+    .banner-txt-container {
+        margin: 100px 18% auto 22%;
+    }
+
+    .banner-txt__title {
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+
+    .banner-txt__texto {
+        font-size: 20px;
+    }
+
+    .banner-txt__btn {
+        margin-top: 80px;
+    }
+
+    .banner-txt__deco {
         left: -100px;
         top: 20px;
+        height: auto;
     }
 
 }
