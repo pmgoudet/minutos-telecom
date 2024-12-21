@@ -5,11 +5,7 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(slider.css);
-
-
-
-
-
+@import url(articles.css);
 
 
 :root {
@@ -31,15 +27,8 @@
 * {
     font-family: var(--fonte-principal);
     text-decoration: none;
-    fill: var(--cor-branco);
 }
 
 a {
     color: white;
 }
-
-/* html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-} */
