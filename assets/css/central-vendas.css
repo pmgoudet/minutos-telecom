@@ -1,0 +1,42 @@
+.central-vendas__img {
+    width: 100vw;
+    height: 330px;
+    background-image: url(../img/mobile/canal-de-vendas-mobile-minutos-telecom.webp);
+    background-size: cover;
+}
+
+.central-vendas__contato {
+    width: 100vw;
+    height: 330px;
+    background-image: url(../img/mobile/canal-de-vendas-bg-mobile-minutos-telecom.png);
+    background-size: cover;
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+.central-vendas__contato__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 60px 30px 30px 30px;
+}
+
+.central-vendas__contato__texto {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 0 30px 60px 30px;
+}
+
+.central-vendas__contato__texto strong {
+    color: var(--cor-azul-agua);
+    font-weight: 500;
+}
+
+.central-vendas__contato__btn {
+    background-color: aqua;
+    color: var(--cor-azul-marinho);
+    font-weight: 800;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+}

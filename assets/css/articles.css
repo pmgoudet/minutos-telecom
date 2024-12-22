@@ -1,5 +1,6 @@
 .articles-container {
     padding: 0 30px;
+    padding-bottom: 30px;
 }
 
 .articles-container__links {
