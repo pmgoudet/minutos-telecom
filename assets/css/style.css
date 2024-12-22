@@ -28,6 +28,7 @@
 * {
     font-family: var(--fonte-principal);
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 a {
