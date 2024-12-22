@@ -22,7 +22,7 @@
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
-    padding-bottom: 3vh; 
+    padding-bottom: 3vh;
 }
 
 .articles-container__gif-chamada__chamada strong {
@@ -39,12 +39,183 @@
 
     .articles-container {
         padding: 0 75px;
+        display: flex;
+        gap: 20px;
+        padding-bottom: 80px;
     }
 
     .articles-container__texto {
         display: block;
+        background-color: var(--cor-azul-bg);
+        padding: 50px;
+        width: 100%;
+    }
+
+    .articles-container__texto__titulo {
+        color: var(--cor-branco);
+        font-size: 25px;
+        line-height: 35px;
+        padding: 30px 0 50px 0;
+    }
+
+    .articles-container__texto__texto {
+        color: var(--cor-branco);
+        font-size: 18px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+
+    .articles-container__gif-chamada {
+        flex-direction: column;
+        justify-content: center;
+
+        .articles-container__gif-chamada__chamada {
+            width: 90%;
+            padding-bottom: 0;
+            font-size: 40px;
+            line-height: 48px;
+            order: 1;
+        }
+
+        #lottie-animation {
+            width: 90%;
+            height: auto;
+            order: 0;
+        }
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+
+    .articles-container {
+        height: 100vh;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 15%;
+    }
+
+    .articles-container__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        gap: 20px;
+
+        .articles-container__links {
+            width: 161px;
+            height: 216px;
+            opacity: 0.7;
+            color: var(--cor-branco);
+            font-weight: 700;
+            font-size: 20px;
+            background-size: cover;
+            display: flex;
+            justify-content: end;
+            cursor: pointer;
+            transition: 0.3s;
+
+            p {
+                padding: 10px;
+            }
+        }
+
+        .articles-container__links:hover {
+            opacity: 1;
+        }
+
+        .articles-container__links-corporativo {
+            background-image: url(../img/desktop/planos-corporativos-minutos-telecom.webp);
+        }
+
+        .articles-container__links-residencial {
+            background-image: url(../img/desktop/planos-residenciais-minutos-telecom.webp);
+        }
+
+    }
+
+    .articles-container__texto {
+        background-color: var(--cor-azul-marinho);
+        width: 50%;
+        height: 80%;
+        min-width: 290px;
+        align-self: center;
+    }
+
+    .articles-container__texto__titulo {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 45px;
+        padding: 0 0 30px 0;
+    }
+
+    .articles-container__texto__texto {
+        color: var(--cor-branco);
+        font-size: 15px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+
+    .articles-container__gif-chamada {
+        width: 60%;
+        padding: 0;
+        justify-content: left;
+
+        .articles-container__gif-chamada__chamada {
+            width: 90%;
+            font-size: 30px;
+        }
+
+        #lottie-animation {
+            width: 80%;
+            height: auto;
+            order: 0;
+            align-self: flex-start;
+        }
+    }
+}
+
+@media (min-width: 1441px) {
+
+    .articles-container {
+        padding: 0 20%;
+    }
+
+    .articles-container__links {
+        gap: 30px;
+
+        .articles-container__links {
+            width: 226px;
+            height: 303px;
+            font-size: 25px;
+        }
+    }
+
+    .articles-container__texto {
+        height: 70%;
+        width: 50%;
+        min-width: 270px;
+    }
+
+    .articles-container__texto__titulo {
+        font-weight: 600;
+    }
+
+    .articles-container__texto__texto {
+        font-size: 18px;
+    }
+
+    .articles-container__gif-chamada {
+        width: 50vw;
+        justify-content: flex-start;
     }
     
+    .articles-container__gif-chamada__chamada {
+        width: 100%;
+    }
 
-
+    #lottie-animation {
+        width: 100%;
+    }
 }
