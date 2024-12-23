@@ -66,6 +66,7 @@
     justify-self: center;
     display: flex;
     margin-bottom: 20px;
+    box-shadow: var(--shadow);
 }
 
 .footer-container__dados__suporte {
