@@ -1,0 +1,27 @@
+.footer-container {
+    font-family: var(--fonte-principal);
+}
+
+.footer__redes-sociais {
+    height: 50px;
+    width: 100vw;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__redes-sociais__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+        height: 15px;
+    }
+
+    p {
+        color: var(--cor-cinza);
+        font-size: 11px;
+    }
+}

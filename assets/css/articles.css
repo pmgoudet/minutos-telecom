@@ -50,6 +50,7 @@
         background-color: var(--cor-azul-bg);
         padding: 50px;
         width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     .articles-container__texto__titulo {
@@ -116,6 +117,8 @@
             justify-content: end;
             cursor: pointer;
             transition: 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
 
             p {
                 padding: 10px;

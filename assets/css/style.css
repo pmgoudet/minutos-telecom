@@ -7,6 +7,7 @@
 @import url(slider.css);
 @import url(articles.css);
 @import url(central-vendas.css);
+@import url(footer.css);
 
 
 :root {
@@ -33,3 +34,13 @@
 a {
     color: white;
 }
+
+/*
+
+TEM QUE FAZER: 
+
+1- trocar o logo para png
+
+
+
+*/
