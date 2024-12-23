@@ -30,17 +30,17 @@
 }
 
 .footer-container__dados {
-    padding: 30px 30px;
+    padding: 30px;
 }
 
-.footer-container__dados__fale-conosco{
+.footer-container__dados__fale-conosco {
     margin-bottom: 20px;
 }
 
-.footer-container__dados__fale-conosco__titulo{
+.footer-container__dados__fale-conosco__titulo {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px;
+    padding: 30px 30px 0 30px;
 }
 
 .footer-container__dados__fale-conosco__item {
@@ -113,8 +113,90 @@
     p {
         margin-bottom: 5px;
     }
+
     a {
         color: rgb(212, 212, 212);
         text-decoration: underline;
     }
+}
+
+
+@media (min-width: 480px) {
+
+    .footer__redes-sociais {
+        width: 100%;
+    }
+
+    .footer-container__dados {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .footer-container__dados__fale-conosco {
+        width: 300px;
+        min-width: 300px;
+    }
+    
+
+    .footer-container__dados__maps__mapa {
+        width: 25vw;
+        height: 200px;
+    }
+
+    .footer-container__dados__suporte {
+        flex-direction: column;
+        width: 30vw;
+        margin-top: -10px;
+    }
+
+    .footer-container__dados__suporte__titulo {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .footer-container__dados__suporte__texto {
+        display: block;
+        font-size: 15px;
+        line-height: 20px;
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    .footer-container__dados__suporte__btn {
+        font-size: 15px;
+        width: auto;
+        align-self: flex-start;
+
+        p {
+            text-align: center;
+        }
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+
+    .footer__redes-sociais {
+        justify-content: center;
+        gap: 200px;
+    }
+
+    .footer-container__dados__fale-conosco__titulo {
+        margin: 30px 8vw;
+        padding: 0;
+    }
+
+    .footer-container__dados {
+        padding: 0 8vw;
+        margin-bottom: 20px;
+    }
+
+    .footer-container__dados__suporte {
+        width: 300px;
+        min-width: 300px;
+    }
+
 }
