@@ -1,13 +1,16 @@
 .footer-container {
     font-family: var(--fonte-principal);
+    color: var(--cor-branco);
+    background-color: var(--cor-azul-bg);
 }
 
 .footer__redes-sociais {
+    background-color: var(--cor-branco);
     height: 50px;
     width: 100vw;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -23,5 +26,95 @@
     p {
         color: var(--cor-cinza);
         font-size: 11px;
+    }
+}
+
+.footer-container__dados {
+    padding: 30px 30px;
+}
+
+.footer-container__dados__fale-conosco{
+    margin-bottom: 20px;
+}
+
+.footer-container__dados__fale-conosco__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-container__dados__fale-conosco__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+
+    img {
+        height: 20px;
+        width: auto;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.footer-container__dados__maps__mapa {
+    width: 100%;
+    height: 295px;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-container__dados__suporte {
+    display: flex;
+}
+
+.footer-container__dados__suporte__titulo-flex {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.footer-container__dados__suporte__titulo {
+    font-size: 4.5vw;
+    line-height: 25px;
+    font-weight: 600;
+    width: 50%;
+
+    img {
+        height: 25px;
+    }
+}
+
+.footer-container__dados__suporte__texto {
+    display: none;
+}
+
+.footer-container__dados__suporte__btn {
+    width: 50%;
+    color: var(--cor-branco);
+    font-size: 4vw;
+    font-weight: 600;
+    background-color: var(--cor-whatsapp);
+    border-radius: 10px;
+    padding: 10px;
+    align-self: center;
+}
+
+.footer-container__direitos {
+    color: rgb(212, 212, 212);
+    font-size: 10px;
+    padding: 0 30px 30px 30px;
+    text-align: center;
+
+    p {
+        margin-bottom: 5px;
+    }
+    a {
+        color: rgb(212, 212, 212);
+        text-decoration: underline;
     }
 }
