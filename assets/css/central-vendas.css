@@ -33,7 +33,7 @@
 }
 
 .central-vendas__contato__btn {
-    background-color: aqua;
+    background-color: #3BD8FF;
     color: var(--cor-azul-marinho);
     font-size: 20px;
     font-weight: 800;
@@ -104,5 +104,10 @@
     .central-vendas__contato__btn {
         font-size: 25px;
         padding: 20px 30px;
+        transition: 0.3s;
+    }
+
+    .central-vendas__contato__btn:hover {
+        background-color: #a2ecff;
     }
 }

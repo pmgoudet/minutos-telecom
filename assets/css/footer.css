@@ -104,6 +104,7 @@
         background-color: var(--cor-whatsapp);
         border-radius: 10px;
         font-size: 20px;
+        box-shadow: var(--shadow);
     }
 }
 
@@ -201,5 +202,16 @@
         width: 300px;
         min-width: 300px;
     }
+
+    .footer-container__dados__suporte__btn {
+        a {
+            transition: 0.3s;
+        }
+        
+        a:hover {
+            background-color: #158025;
+        }
+    }
+
 
 }
