@@ -194,9 +194,11 @@
         transition: 0.3s;
     }
 
-    .a1 {
+    .pagina-ativa {
         color: var(--cor-azul-agua);
     }
+
+    /* PARA AS PÁGINAS "CLIENTE" A PARAMETRIZAÇÃO ESTARÁ NO "BANNER.CSS" DE CADA UM */
 
 }
 
@@ -231,7 +233,7 @@
     }
 
     .dropmenu {
-        top: 87px;
+        top: 86px;
     }
 
     #btn-dropmenu {

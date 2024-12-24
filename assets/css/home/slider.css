@@ -166,28 +166,28 @@
 }
 
 #slide1 {
-   background: url(../img/test-carrossel1.jpg) center no-repeat;
+   background: url(../../img/test-carrossel1.jpg) center no-repeat;
    background-size: cover;
 }
 
 #slide2 {
-   background: url(../img/test-carrossel2.jpg) center no-repeat;
+   background: url(../../img/test-carrossel2.jpg) center no-repeat;
    background-size: cover;
 }
 
 #slide3 {
-   background: url(../img/test-carrossel5.jpg) center no-repeat;
+   background: url(../../img/test-carrossel5.jpg) center no-repeat;
    background-size: cover;
 
 }
 
 #slide4 {
-   background: url(../img/test-carrossel4.jpg) center no-repeat;
+   background: url(../../img/test-carrossel4.jpg) center no-repeat;
    background-size: cover;
 }
 
 #slide5 {
-   background: url(../img/test-carrossel3.jpg) center no-repeat;
+   background: url(../../img/test-carrossel3.jpg) center no-repeat;
    background-size: cover;
 }
 
@@ -234,24 +234,24 @@
    }
 
    #slide1 {
-      background-image: url(../img/test-carrossel1_tablet.jpg);
+      background-image: url(../../img/test-carrossel1_tablet.jpg);
       background-size: cover;
    }
 
    #slide2 {
-      background-image: url(../img/test-carrossel2_tablet.jpg);
+      background-image: url(../../img/test-carrossel2_tablet.jpg);
    }
 
    #slide3 {
-      background-image: url(../img/test-carrossel5_tablet.jpg);
+      background-image: url(../../img/test-carrossel5_tablet.jpg);
    }
 
    #slide4 {
-      background-image: url(../img/test-carrossel4_tablet.jpg);
+      background-image: url(../../img/test-carrossel4_tablet.jpg);
    }
 
    #slide5 {
-      background-image: url(../img/test-carrossel3_tablet.jpg);
+      background-image: url(../../img/test-carrossel3_tablet.jpg);
    }
 
    .slider-container__descricao-titulo-e-texto {

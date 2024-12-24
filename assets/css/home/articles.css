@@ -130,11 +130,11 @@
         }
 
         .articles-container__links-corporativo {
-            background-image: url(../img/desktop/planos-corporativos-minutos-telecom.webp);
+            background-image: url(../../img/desktop/planos-corporativos-minutos-telecom.webp);
         }
 
         .articles-container__links-residencial {
-            background-image: url(../img/desktop/planos-residenciais-minutos-telecom.webp);
+            background-image: url(../../img/desktop/planos-residenciais-minutos-telecom.webp);
         }
 
     }

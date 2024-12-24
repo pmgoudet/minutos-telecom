@@ -1,0 +1,31 @@
+.login-form {
+    .button-flex {
+        img {
+            height: 20px;
+        }
+    }
+}
+
+.voltar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.btn-voltar {
+    background-color: var(--cor-azul-bg);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+}
+
+@media (min-width: 1025px) {
+
+    .btn-voltar:hover {
+        background-color: var(--cor-azul-marinho);
+    }
+    
+}

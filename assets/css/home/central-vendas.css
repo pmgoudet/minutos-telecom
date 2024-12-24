@@ -1,14 +1,16 @@
+
+
 .central-vendas__img {
     width: 100vw;
     height: 330px;
-    background-image: url(../img/mobile/canal-de-vendas-mobile-minutos-telecom.webp);
+    background-image: url(../../img/mobile/canal-de-vendas-mobile-minutos-telecom.webp);
     background-size: cover;
 }
 
 .central-vendas__contato {
     width: 100vw;
     height: 330px;
-    background-image: url(../img/mobile/canal-de-vendas-bg-mobile-minutos-telecom.png);
+    background-image: url(../../img/mobile/canal-de-vendas-bg-mobile-minutos-telecom.png);
     background-size: cover;
     color: var(--cor-branco);
     text-align: center;
@@ -49,7 +51,7 @@
         position: relative;
         width: 100%;
         height: 614px;
-        background-image: url('../img/tablet/canal-de-vendas-tablet-minutos-telecom.webp');
+        background-image: url('../../img/tablet/canal-de-vendas-tablet-minutos-telecom.webp');
         background-size: cover;
         display: flex;
         align-items: center;

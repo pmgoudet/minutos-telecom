@@ -1,0 +1,87 @@
+.contratos-container {
+    margin-bottom: 50px;
+}
+
+.contratos-container__img {
+    height: 193px;
+    width: 100vw;
+    background-image: url(../../img/mobile/foto-contratos-mobile-minutos-telecom.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contratos-container__bloco {
+    color: var(--cor-azul-marinho);
+    padding: 30px;
+}
+
+.contratos-container__bloco__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contratos-container__bloco__texto {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.contratos-container__bloco__btn {
+    background-color: var(--cor-azul-marinho);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+
+    img {
+        height: 30px;
+    }
+}
+
+.contrato-btn-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 480px) {
+
+    .contratos-container {
+        padding: 50px 75px;
+        margin-bottom: 50px;
+        display: flex;
+    }
+
+    .contratos-container__img {
+        height: 412px;
+        width: 377px;
+        background-image: url(../../img/tablet/foto-contratos-tablet-minutos-telecom.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .contratos-container__bloco {
+        padding: 0 30px;
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+
+    .contratos-container {
+        width: 1024px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .contratos-container__bloco__btn:hover {
+        background-color: var(--cor-azul-marinho-hover);
+    }
+
+}

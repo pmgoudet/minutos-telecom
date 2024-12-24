@@ -4,15 +4,11 @@
 
 /* HOME */
 @import url(header.css);
-@import url(banner.css);
-@import url(slider.css);
-@import url(articles.css);
-@import url(central-vendas.css);
+@import url(home/banner.css);
+@import url(home/slider.css);
+@import url(home/articles.css);
+@import url(home/central-vendas.css);
 @import url(footer.css);
-
-
-
-
 
 
 :root {
@@ -21,13 +17,12 @@
     --cor-azul-claro-bg: #c5f4ff;
     --cor-branco: white;
     --cor-azul-marinho: #01255A;
+    --cor-azul-marinho-hover: #02122b;
     --cor-whatsapp: #2AB640;
     --cor-cinza: #828282;
     --cor-preto: #000000;
     --degrade-azul-claro: linear-gradient(0deg, rgba(255, 255, 255, 1) 100%, rgba(1, 212, 255, 0.2) 100%);
-
     --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-
     --fonte-principal: 'Inter', sans-serif;
 }
 

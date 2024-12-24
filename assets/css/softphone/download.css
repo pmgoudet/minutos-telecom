@@ -1,0 +1,55 @@
+.softphone-container {
+    padding: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.softphone-container__paragrafo {
+    margin-bottom: 20px;
+
+    a { 
+        color: var(--cor-whatsapp);
+        font-weight: 600;
+    }
+}
+
+.softphone-container__btn {
+    margin-top: 20px;
+    background-color: var(--cor-azul-marinho);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+
+@media screen and (min-width: 480px) {
+
+    .softphone-container {
+        width: 400px;
+        margin: 70px auto;
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+
+    .softphone-container__btn:hover {
+        background-color: var(--cor-azul-marinho-hover);
+    }
+
+    .softphone-container__paragrafo {
+        a:hover { 
+            text-decoration: underline;
+        }
+    }
+
+}
+

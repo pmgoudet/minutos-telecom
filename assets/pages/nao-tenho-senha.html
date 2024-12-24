@@ -77,22 +77,24 @@
         </section>
 
         <section class="login-container">
-            <h2 class="login-container__titulo">Central do Assinante</h2>
+            <h2 class="login-container__titulo">Não tenho senha</h2>
+            <p class="login-container__texto">Informe seu CPF ou CNPJ e clique no botão 'Solicitar'.</p>
             <form class="login-form" action="" method="POST">
                 <label for="cpf-cnpj">CPF / CNPJ:</label>
                 <input type="text" id="cpf-cnpj" name="cpf-cnpj" placeholder="Escreva sem espaços, pontos ou traços"
                     required>
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" minlength="8" maxlength="20"
-                    placeholder="Entre 8 e 20 caracteres" required>
                 <button type="submit">
                     <div class="button-flex">
-                        <p>Entrar</p> <img src="../img/icon/porta-icon-minutos-telecom.svg" alt="Ícone de entrar para se conectar">
+                        <p>Solicitar</p> <img class="login-container__titulo__btn__icon-enviar"
+                            src="../img/icon/enviar-icon-minutos-telecom.svg"
+                            alt="Ícone de enviar o pedido de nova senha">
                     </div>
                 </button>
             </form>
-            <a class="login-container__link" href="esqueci-minha-senha.html">Esqueci minha senha</a>
-            <a class="login-container__link" href="nao-tenho-senha.html">Não tenho senha</a>
+            <div class="voltar-flex">
+                <a class="login-container__link" href="esqueci-minha-senha.html">Esqueci minha senha</a>
+                <a class="btn-voltar" href="area-do-cliente.html"><img src="../img/icon/voltar-icon-minutos-telecom.svg" alt="Ícone para voltar à pagina de conexão">Voltar</a>
+            </div>
         </section>
     </main>
 
@@ -100,8 +102,7 @@
         <div class="footer__redes-sociais">
             <a href="https://www.facebook.com/MinutosTelecom/?locale=pt_BR" target="_blank"
                 class="footer__redes-sociais__item">
-                <img src="../img/icon/facebook-icon-pb-minutos-telecom.png"
-                    alt="Página no Facebook da Minutos Telecom">
+                <img src="../img/icon/facebook-icon-pb-minutos-telecom.png" alt="Página no Facebook da Minutos Telecom">
                 <p>Facebook</p>
             </a>
             <a href="https://www.instagram.com/minutostelecom/" target="_blank" class="footer__redes-sociais__item">
@@ -110,8 +111,7 @@
                 <p>Instagram</p>
             </a>
             <a href="#" target="_blank" class="footer__redes-sociais__item">
-                <img src="../img/icon/whatsapp-icon-pb-minutos-telecom.png"
-                    alt="Página no WhatsApp da Minutos Telecom">
+                <img src="../img/icon/whatsapp-icon-pb-minutos-telecom.png" alt="Página no WhatsApp da Minutos Telecom">
                 <p>WhatsApp</p>
             </a>
         </div>
@@ -119,8 +119,7 @@
         <div class="footer-container__dados">
             <div class="footer-container__dados__fale-conosco">
                 <div class="footer-container__dados__fale-conosco__item">
-                    <img src="../img/icon/telefone-icon-minutos-telecom.png"
-                        alt="Ícone de telefone Minutos Telecom">
+                    <img src="../img/icon/telefone-icon-minutos-telecom.png" alt="Ícone de telefone Minutos Telecom">
                     <p>Telefone: <a href="tel:+551930810000">+55 19 3081-0000</a></p>
                 </div>
                 <div class="footer-container__dados__fale-conosco__item">
@@ -141,8 +140,7 @@
                     <p><a href="mailto:suporte@minutostelecom.com.br">suporte@minutostelecom.com.br</a></p>
                 </div>
                 <div class="footer-container__dados__fale-conosco__item">
-                    <img src="../img/icon/endereco-icon-minutos-telecom.png"
-                        alt="Ícone de endereço Minutos Telecom">
+                    <img src="../img/icon/endereco-icon-minutos-telecom.png" alt="Ícone de endereço Minutos Telecom">
                     <p>Av. Marechal Rondon, 700 – Sala 310 <br>
                         Campinas/SP – Brasil</p>
                 </div>

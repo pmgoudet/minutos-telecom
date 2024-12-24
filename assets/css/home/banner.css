@@ -1,7 +1,9 @@
+/* BANNER DA PÁGINA HOME */
+
 .banner-img {
     height: 285px;
     width: 100vw;
-    background-image: url(../img/mobile/home-mobile-minutos-telecom.webp);
+    background-image: url(../../img/mobile/home-mobile-minutos-telecom.webp);
     background-position: center;
     background-size: cover;
 }
@@ -67,7 +69,7 @@
         margin-top: -70px;
         width: 100%;
         height: 423px;
-        background-image: url(../img/tablet/home-tablet-minutos-telecom.webp);
+        background-image: url(../../img/tablet/home-tablet-minutos-telecom.webp);
         background-position: center;
         background-size: cover;
     }
@@ -129,7 +131,7 @@
 
     .banner-img {
         order: 1;
-        background-image: url(../img/desktop/home-desktop-minutos-telecom.webp);
+        background-image: url(../../img/desktop/home-desktop-minutos-telecom.webp);
         width: 55%;
         margin-top: -143px;
         height: 100vh;
@@ -158,7 +160,7 @@
     }
 
     .header__description__botao-link:hover {
-        background-color: #02122b;
+        background-color: var(--cor-azul-marinho-hover);
     }
 
     .banner-txt__deco {
