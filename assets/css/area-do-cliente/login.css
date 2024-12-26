@@ -24,6 +24,13 @@
         padding: 10px;
     }
 
+    textarea {
+        border: none;
+        box-shadow: var(--shadow);
+        padding: 10px;
+        resize: none;
+    }
+
     button {
         margin-top: 20px;
         background-color: var(--cor-azul-bg);
@@ -59,7 +66,7 @@
 
     .login-container {
         width: 400px;
-        margin: 70px auto;
+        margin: 75px auto;
     }
 
 }

@@ -1,8 +1,12 @@
+/* ESTE CSS FUNCIONA PARA TODAS AS PÁGINAS QUE NÃO SÃO A HOME */
+
 @charset "UFT-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url(header.css);
+@import url(contato.css);
+@import url(residencial/banner.css);
 @import url(area-do-cliente/banner.css);
 @import url(area-do-cliente/login.css);
 @import url(area-do-cliente/esqueci-minha-senha.css);
