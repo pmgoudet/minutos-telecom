@@ -158,6 +158,7 @@
 
     .header__nav li:hover>.dropmenu .header__nav__lista__menu-secundario {
         display: flex;
+        min-height: 40px;
     }
 
     #btn-dropmenu {
