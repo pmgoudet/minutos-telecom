@@ -39,7 +39,9 @@
 
     img {
         height: 30px
-    };
+    }
+
+    ;
 
     h3 {
         font-size: 20px;
@@ -64,10 +66,11 @@
 }
 
 .servicos__300mb__dados__300mb-p1,
-.servicos__500mb__dados__500mb-p1  {
+.servicos__500mb__dados__500mb-p1 {
     font-size: 15vw;
     font-weight: 700;
 }
+
 .servicos__300mb__dados__300mb-p2,
 .servicos__500mb__dados__500mb-p2 {
     font-size: 30px;
@@ -93,7 +96,6 @@
     gap: 5px;
     margin: 20px 0;
     font-weight: 700;
-
 }
 
 .servicos__300mb__dados__preco__por-rs,
@@ -130,4 +132,109 @@
     p {
         margin-bottom: 5px;
     }
+}
+
+
+@media (min-width: 480px) {
+
+    .servicos-container {
+        padding: 75px 75px;
+    }
+
+    .servicos__300mb {
+        display: flex;
+        
+    }
+
+    .servicos__500mb {
+        display: flex;
+    }
+
+    /* .servicos__500mb {
+        margin-top: 30px;
+    } */
+
+    .servicos__300mb__img,
+    .servicos__500mb__img {
+        height: 430px;
+    }
+
+    .servicos__300mb__img {
+        height: 431px;
+        background-image: url(../../img/tablet/planos-internet-banda-larga-tablet-minutos-telecom.jpg);
+    }
+
+    .servicos__500mb__img {
+        margin-top: 0;
+        height: 433px;
+        background-image: url(../../img/tablet/planos-internet-banda2-larga-tablet-minutos-telecom.jpg);
+        order: 2;
+    }
+
+    .servicos__300mb__dados-container,
+    .servicos__500mb__dados-container {
+        background-color: var(--cor-azul-bg);
+        padding-bottom: 20px;
+    }
+
+    .servicos__300mb__dados,
+    .servicos__500mb__dados {
+        width: 235px;
+    }
+
+    .servicos__300mb__dados__300mb-texto-flex,
+    .servicos__500mb__dados__500mb-texto-flex {
+        flex-direction: column;
+    }
+
+    .servicos__300mb__dados__300mb-p1,
+    .servicos__500mb__dados__500mb-p1 {
+        font-size: 80px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .servicos__300mb__dados__300mb-p2,
+    .servicos__500mb__dados__500mb-p2 {
+        text-align: center;
+    }
+
+    .servicos__300mb__dados__texto,
+    .servicos__500mb__dados__texto {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .servicos__300mb__dados__preco__por-rs,
+    .servicos__500mb__dados__preco__por-rs {
+        font-size: 20px;
+    }
+
+    .servicos__300mb__dados__preco__preco,
+    .servicos__500mb__dados__preco__preco {
+        font-size: 80px;
+    }
+
+    .servicos__300mb__dados__preco__cents-mes__p1,
+    .servicos__500mb__dados__preco__cents-mes__p1 {
+        font-size: 30px;
+    }
+
+    .servicos__300mb__dados__preco__cents-mes__p2,
+    .servicos__500mb__dados__preco__cents-mes__p2 {
+        font-size: 20px;
+    }
+
+    .servicos__500mb__dados__preco-flex {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .servicos-container {
+        width: 900px;
+        margin: auto;
+    }
+
 }
