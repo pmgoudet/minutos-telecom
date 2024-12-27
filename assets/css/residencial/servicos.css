@@ -143,16 +143,16 @@
 
     .servicos__300mb {
         display: flex;
-        
+
     }
 
     .servicos__500mb {
         display: flex;
     }
 
-    /* .servicos__500mb {
+    .servicos__500mb {
         margin-top: 30px;
-    } */
+    }
 
     .servicos__300mb__img,
     .servicos__500mb__img {
@@ -233,7 +233,7 @@
 @media (min-width: 1025px) {
 
     .servicos-container {
-        width: 900px;
+        max-width: 900px;
         margin: auto;
     }
 
