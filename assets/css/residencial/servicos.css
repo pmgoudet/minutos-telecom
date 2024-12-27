@@ -1,0 +1,96 @@
+.servicos-container {
+    padding: 30px;
+}
+
+.servicos__300mb__img {
+    width: 100%;
+    height: 262px;
+    background-image: url(../../img/mobile/planos-internet-banda-larga-mobile-minutos-telecom.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.servicos__300mb__dados-container {
+    background-color: var(--cor-azul-bg);
+    padding-bottom: 20px;
+}
+
+.servicos__300mb__titulo-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 10px 30px;
+
+    img {
+        height: 30px
+    };
+
+    h3 {
+        font-size: 20px;
+        color: var(--cor-azul-agua);
+        font-weight: 600;
+    }
+}
+
+.servicos__300mb__dados {
+    color: var(--cor-branco);
+    background-color: var(--cor-azul-marinho);
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.servicos__300mb__dados__300mn-texto-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.servicos__300mb__dados__300mn-p1 {
+    font-size: 15vw;
+    font-weight: 700;
+}
+.servicos__300mb__dados__300mn-p2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.servicos__300mb__dados__texto {
+    font-size: 3.5vw;
+    line-height: 25px;
+}
+
+.servicos__300mb__dados__preco-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+    font-weight: 700;
+
+}
+
+.servicos__300mb__dados__preco__por-rs {
+    font-size: 7vw;
+}
+
+.servicos__300mb__dados__preco__preco {
+    font-size: 23vw;
+    color: var(--cor-azul-agua);
+}
+
+.servicos__300mb__dados__preco__cents-mes {
+    text-align: end;
+}
+
+.servicos__300mb__dados__preco__cents-mes__p1 {
+    color: var(--cor-azul-agua);
+    font-size: 8vw;
+}
+
+.servicos__300mb__dados__preco__cents-mes__p2 {
+    font-size: 4vw;
+}
+
+.servicos__300mb__dados__bonus {
+    text-align: center;
+}

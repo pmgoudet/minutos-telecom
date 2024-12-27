@@ -43,7 +43,7 @@
         display: flex;
         gap: 20px;
         padding-bottom: 80px;
-    }
+    } 
 
     .articles-container__texto {
         display: block;
