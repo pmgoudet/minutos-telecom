@@ -232,7 +232,7 @@
     .servico-container-ultimo-img { 
         margin-top: 0;
         width: 100%;
-        height: 562px;
+        height: auto;
         background-image: url(../../img/tablet/outsourcing-img-tablet-minutos-telecom.jpg);
         background-position: center center;
         order: 2;

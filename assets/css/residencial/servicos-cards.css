@@ -17,14 +17,14 @@
     a {
         color: var(--cor-azul-marinho);
         font-weight: 800;
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
 .assineja-container__texto {
     margin-top: 15px;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     width: calc(100vw - 100px);
 
     strong {
@@ -53,21 +53,21 @@
 }
 
 .servico__titulo {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 25px;
+    line-height: 30px;
     font-weight: 600;
 }
 
 .servico__subtitulo {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .servico__texto {
     margin-top: 20px;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 15px;
+    line-height: 25px;
 
     strong {
         font-weight: 600;
