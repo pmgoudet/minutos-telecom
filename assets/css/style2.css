@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url(header.css);
+
 @import url(contato.css);
 @import url(residencial/banner.css);
 @import url(residencial/servicos.css);
@@ -16,6 +17,7 @@
 @import url(area-do-cliente/nao-tenho-senha.css);
 @import url(softphone/download.css);
 @import url(contratos/download.css);
+
 @import url(footer.css);
 
 
