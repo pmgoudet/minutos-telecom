@@ -30,6 +30,12 @@
     strong {
         font-weight: 800;
     }
+
+    a {
+        color: var(--cor-azul-marinho);
+        font-weight: 800;
+        text-decoration: underline;
+    }
 }
 
 .servico-container {
@@ -62,6 +68,10 @@
     margin-top: 20px;
     font-size: 20px;
     line-height: 32px;
+
+    strong {
+        font-weight: 600;
+    }
 }
 
 .servico-container-impar {
@@ -69,15 +79,11 @@
 }
 
 
-
-
-
 @media (min-width: 480px) {
 
     .servicos-container {
         padding: 75px;
         width: calc(100vw - 150px);
-
     }
 
     .servicos-grid {
@@ -86,7 +92,7 @@
         display: grid;
         gap: 30px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
     }   
 
     .assineja-container__titulo-flex {

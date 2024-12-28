@@ -1,0 +1,254 @@
+/* SERVIÇOS DA PÁGINA CORPORATIVO */
+
+.business-container {
+    padding: 30px;
+    color: var(--cor-branco);
+}
+
+.business-txt-container {
+    background-color: var(--cor-azul-bg);
+    padding: 20px;
+}
+
+.business-txt__planos-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.business-txt__planos {
+    background-color: var(--cor-azul-marinho);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.business-txt__planos__titulo-flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--cor-azul-agua);
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.business-txt__planos__dados {
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    text-align: right;
+}
+
+.business-txt__planos__dados-p1 {
+    font-size: 15vw;
+}
+
+.business-txt__planos__dados__preco-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.business-txt__planos__dados__preco__por-rs {
+    font-size: 3vw;
+}
+
+.business-txt__planos__dados__preco__preco {
+    font-size: 9.5vw;
+    color: var(--cor-azul-agua);
+}
+
+.business-txt__planos__dados__preco__cents-mes {
+    text-align: right;
+}
+
+.business-txt__planos__dados__preco__cents-mes__p1 {
+    font-size: 4vw;
+    color: var(--cor-azul-agua);
+}
+
+.business-txt__planos__dados__preco__cents-mes__p2 {
+    margin-top: 2px;
+    font-size: 2vw;
+}
+
+.business-txt__planos__dados__bonus {
+    font-size: 2.8vw;
+    text-align: center;
+}
+
+.business-txt__texto-container {
+    padding-top: 20px;
+}
+
+.business-txt__texto__titulo {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.business-txt__texto__icon {
+    display: none;
+}
+
+.business-txt__texto__paragrafo {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+    strong {
+        font-weight: 600;
+    }
+}
+
+.business-txt__texto__itens-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-txt__texto__itens {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.business-txt-img {
+    background-image: url(../../img/mobile/img-mobile-planos-business-minutos-telecom.jpg);
+    height: 250px;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+}
+
+.servico-container-ultimo { 
+    box-shadow: var(--shadow);
+}
+
+.servico-container-ultimo-img { 
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-image: url(../../img/mobile/outsourcing-img-mobile-minutos-telecom.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.outsourcing-container {
+    background-color: var(--cor-azul-marinho);
+    color: var(--cor-branco);
+    padding: 20px;
+}
+
+
+@media (min-width: 480px) {
+
+    .business-container {
+        padding: 75px;
+    }
+
+    .business-txt-container {
+        display: flex;
+        gap: 5%;
+    }
+
+    .business-txt__planos-container {
+        order: 2;
+    }
+
+    .business-txt__planos__titulo-flex {
+        font-size: 15px;
+    }
+
+    .business-txt__planos__dados {
+        text-align: center;
+    }
+
+    .business-txt__planos__dados-p1 {
+        font-size: 80px;
+    }
+
+    .business-txt__planos__dados-p2 {
+        font-size: 30px;
+    }
+
+    .business-txt__planos__dados__preco__por-rs {
+        font-size: 15px;
+    }
+
+    .business-txt__planos__dados__preco__preco {
+        font-size: 50px;
+    }
+
+    .business-txt__planos__dados__preco__cents-mes__p1 {
+        font-size: 20px;
+    }
+    
+    .business-txt__planos__dados__preco__cents-mes__p2 {
+        font-size: 15px;
+    }
+
+    .business-txt__planos__dados__bonus {
+        font-size: 15px;
+    }
+
+    .business-txt__texto__titulo-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .business-txt__texto__titulo {
+        margin-bottom: 0;
+    }
+
+    .business-txt__texto-container {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .business-txt__texto__icon {
+        display: block;
+    }
+
+    .business-txt__texto__paragrafo {
+        margin: 30px 0;
+    }
+
+    .business-txt-img {
+        background-image: url(../../img/tablet/img-tablet-planos-business-minutos-telecom.jpg);
+        height: 300px;
+    }
+
+    .servico-container-ultimo {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .outsourcing-container {
+        width: 100%;
+    }
+
+    .servico-container-ultimo-img { 
+        margin-top: 0;
+        width: 100%;
+        height: 562px;
+        background-image: url(../../img/tablet/outsourcing-img-tablet-minutos-telecom.jpg);
+        background-position: center center;
+        order: 2;
+    }
+}
+
+
+@media (min-width: 1025px) {
+
+    .business-container {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .business-txt-container {
+        gap: 12%;
+    }
+
+}
