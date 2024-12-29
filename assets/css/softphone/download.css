@@ -9,6 +9,7 @@
 
 .softphone-container__paragrafo {
     margin-bottom: 20px;
+    color: var(--cor-azul-marinho);
 
     a { 
         color: var(--cor-whatsapp);
