@@ -147,7 +147,7 @@
    position: relative;
 }
 
-.slider-button-link {
+/* .slider-button-link {
    position: absolute;
    color: var(--cor-azul-marinho);
    font-size: 2.5vh;
@@ -163,7 +163,7 @@
    transition: 0.2s;
    background-color: #d3eeff;
    box-shadow: 0 0 7px 2px rgb(133, 132, 132);
-}
+} */
 
 #slide1 {
    background: url(../../img/slider/cftv-desk-slider-minutos-telecom.jpg) center no-repeat;
@@ -224,33 +224,38 @@
       perspective: 1000px;
       transform-style: preserve-3d;
    }
-
+/* 
    .slider-button-link {
       font-weight: 700;
       font-size: 2.5vh;
       padding: 1vh 9vw;
       bottom: 1vh;
       right: 18%;
-   }
+   } */
 
    #slide1 {
       background: url(../../img/slider/cftv-tablet-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide2 {
       background: url(../../img/slider/internet-gamer-tablet-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide3 {
       background: url(../../img/slider/banda-larga-corporativo-tablet-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide4 {
       background: url(../../img/slider/voip-tablet-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide5 {
       background: url(../../img/slider/smart-home-tablet-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    .slider-container__descricao-titulo-e-texto {
@@ -400,22 +405,27 @@
    
    #slide1 {
       background: url(../../img/slider/cftv-mobile-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide2 {
       background: url(../../img/slider/internet-gamer-mobile-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide3 {
       background: url(../../img/slider/banda-larga-corporativo-mobile-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide4 {
       background: url(../../img/slider/voip-mobile-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
    #slide5 {
       background: url(../../img/slider/smart-home-mobile-slider-minutos-telecom.jpg);
+      background-size: cover;
    }
 
 }
