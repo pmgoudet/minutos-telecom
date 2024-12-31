@@ -14,10 +14,17 @@
 
 #btn-menu-principal {
     display: flex;
+    flex-direction: column;
     background: none;
     margin: auto;
     border: none;
     color: var(--cor-branco);
+
+    label {
+        font-size: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 }
 
 #hamburguer {
@@ -54,6 +61,7 @@
 
 .header__nav {
     padding: 20px;
+    padding-top: 0;
     flex-direction: column;
     justify-content: start;
     text-align: center;
