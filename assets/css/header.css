@@ -12,7 +12,7 @@
     height: 77px;
 }
 
-#btn-mobile {
+#btn-burguer {
     display: flex;
     background: none;
     margin: auto;
@@ -130,7 +130,7 @@
         padding: 0;
     }
 
-    #btn-mobile {
+    #btn-burguer {
         display: none;
     }
 
