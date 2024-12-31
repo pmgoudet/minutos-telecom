@@ -1,5 +1,5 @@
 // MENU HAMBURGUER
-const mobileBtn = document.querySelector('#btn-burguer');
+const mobileBtn = document.querySelector('#btn-menu-principal');
 const nav = document.querySelector('#header__nav');
 
 window.addEventListener('resize', menuResponsif);
