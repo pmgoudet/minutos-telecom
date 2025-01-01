@@ -1,6 +1,6 @@
 @charset "UFT-8";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* HOME */
 @import url(header.css);
@@ -26,12 +26,12 @@
     --fonte-principal: 'Inter', sans-serif;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Inter';
     src: url('../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2');
-    font-weight: 100 900; /* Suporta todos os pesos de 100 a 900 */
+    font-weight: 100 900;
     font-style: normal;
-    font-display: swap; /* Melhora a performance visual */
+    font-display: swap;
 }
 
 @font-face {
@@ -40,7 +40,7 @@
     font-weight: 100 900;
     font-style: italic;
     font-display: swap;
-}
+} */
 
 * {
     font-family: var(--fonte-principal);
