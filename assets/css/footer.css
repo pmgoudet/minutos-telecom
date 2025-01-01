@@ -96,7 +96,6 @@
 
 .footer-container__dados__suporte__btn {
     width: 50%;
-    color: var(--cor-branco);
     font-weight: 600;
     align-self: center;
 
@@ -106,6 +105,7 @@
         border-radius: 10px;
         font-size: 20px;
         box-shadow: var(--shadow);
+        color: var(--cor-azul-marinho);
     }
 }
 
