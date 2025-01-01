@@ -8,6 +8,7 @@
 @import url(home/slider.css);
 @import url(home/articles.css);
 @import url(home/central-vendas.css);
+
 @import url(footer.css);
 
 
@@ -25,6 +26,23 @@
     --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     --fonte-principal: 'Inter', sans-serif;
 }
+
+/* 
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+} */
 
 * {
     font-family: var(--fonte-principal);
