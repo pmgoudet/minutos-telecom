@@ -147,24 +147,6 @@
    position: relative;
 }
 
-/* .slider-button-link {
-   position: absolute;
-   color: var(--cor-azul-marinho);
-   font-size: 2.5vh;
-   font-weight: 800;
-   background-color: white;
-   padding: 2vh 6vw;
-   border-radius: 7px;
-   bottom: 3vh;
-   right: 19%;
-}
-
-.slider-button-link:hover {
-   transition: 0.2s;
-   background-color: #d3eeff;
-   box-shadow: 0 0 7px 2px rgb(133, 132, 132);
-} */
-
 #slide1 {
    background: url(../../img/slider/cftv-desk-slider-minutos-telecom.webp) center no-repeat;
    background-size: cover;
