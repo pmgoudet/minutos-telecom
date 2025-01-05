@@ -38,3 +38,42 @@ Ami de longue date du propriétaire de **Minutos**, j’ai identifié une opport
 
 - Maquettage ✖
 - Codage ✖
+
+---
+#
+---
+
+# <a href="https://pmgoudet.vercel.app/assets/pages/minutos.html" target="_blank">🔗 Project Link - GO!</a>
+Here is the fully coded and **completely responsive** website, with all elements and functionalities integrated, ready to be published on the client’s site. Final adjustments are currently being made and are aligned with the client’s expectations.
+
+## 📣 The Project
+Since 2007, **Minutos Telecom** has been providing telecommunications and information technology solutions tailored for businesses of all sizes and residences. Based in Campinas (São Paulo, Brazil), it serves over 500 clients, including Embraer and Nacional INN.
+
+As a long-time friend of the owner of **Minutos**, I identified a strategic opportunity to strengthen its online presence. After evaluating its current website, I proposed technical improvements to optimize its digital impact. This initiative aims to deepen my skills while helping the company maximize its benefits.
+
+## 🔧 **Technologies**
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+## 👷‍♂️ Status - IN PROGRESS
+
+### 📝 Planning 
+
+- Current website analysis ✔
+- Competitor analysis ✔
+- Texts  ✔
+- Site structure ✔
+- UML Use Case ✔
+
+### 🎨 Front-End
+
+- Wireframing ✔
+- Mockup creation ✔
+- Coding ✔
+
+### 🖥 Back-End
+
+- Wireframing ✖
+- Mockup creation ✖
+- Coding ✖
+
+
