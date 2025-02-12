@@ -36,6 +36,7 @@ Ami de longue date du propriétaire de **Minutos**, j’ai identifié une opport
 
 ### 🖥 Back-End
 
+- Base de Données ✖
 - Maquettage ✖
 - Codage ✖
 
@@ -72,7 +73,7 @@ As a long-time friend of the owner of **Minutos**, I identified a strategic oppo
 
 ### 🖥 Back-End
 
-- Wireframing ✖
+- Database ✖
 - Mockup creation ✖
 - Coding ✖
 
