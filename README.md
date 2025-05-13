@@ -1,80 +1,58 @@
-<h1 align="center">
-<img src="assets/img/logo/logo-oficial.png" alt="Logo" width="250px">
-<p></p>
-<p>🖥 Website</p>
-</h1>
+# 💡 Minutos Telecom — Site vitrine
 
-<h2 align="center">
-<img src="assets/img/github/printscreen-home.JPG" alt="PrintScreen" width="100%">
-</h2>
+Depuis 2007, **Minutos Telecom** propose des solutions en télécommunications et technologies de l’information, adaptées aux besoins d’entreprises de toutes tailles ainsi qu’aux particuliers. Basée à Campinas (São Paulo, Brésil), l’entreprise compte plus de 500 clients, parmi lesquels **Embraer** et **Nacional INN**.
 
-# <a href="https://pmgoudet.vercel.app/assets/pages/minutos.html" target="_blank">🔗 Lien du Projet - GO!</a>
-Voici le site déjà codé et **entièrement responsive**, avec tous les éléments et fonctionnalités intégrés, prêt à être mis en ligne sur le site du client. Les derniers ajustements sont actuellement en cours de finalisation et sont alignés avec les attentes du client.
+## 🔍 Contexte
 
-## 📣 Le Projet
-Depuis 2007, **Minutos Telecom** offre des solutions en télécommunications et technologies de l’information adaptées à des entreprises de toutes tailles et résidences. Basée à Campinas (São Paulo, Brésil), elle compte plus de 500 clients, dont Embraer et Nacional INN.
+Ami de longue date du fondateur de Minutos Telecom, j’ai identifié une opportunité stratégique d’amélioration de sa présence en ligne. Après une évaluation du site existant, j’ai proposé une refonte technique avec des objectifs clairs : améliorer l’image numérique de l’entreprise, renforcer sa crédibilité et moderniser sa communication.
 
-Ami de longue date du propriétaire de **Minutos**, j’ai identifié une opportunité stratégique pour renforcer sa présence en ligne. En évaluant son <a href="https://www.minutostelecom.com.br/" target="_blank">site web actuel</a>, j’ai proposé des améliorations techniques pour optimiser son impact numérique. Cette démarche vise à approfondir mes compétences tout en aidant l’entreprise à maximiser ses bénéfices.
+Ce projet m’a permis d’approfondir mes compétences front-end tout en livrant une solution concrète à un client réel.
 
-## 🔧 **Technologies**
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+## 📸 Démonstration du projet
 
-## 👷‍♂️ Status - EN COURS
+🔗 **Lien vers le site déployé** : [URL_DU_SITE](https://exemple.com)  
+🖼️ *(Ajoutez ici des captures d’écran si nécessaire)*
 
-### 📝 Conception 
+## 🚀 Détails du projet
 
-- Analyse du site actuel ✔
-- Analyse des concurrents ✔
-- Textes ✔
-- Arborescence ✔
-- UML Use Case ✔
+- 🔧 **Technos utilisées** : HTML, CSS, JavaScript (vanilla)
+- 💻 **Design** : Maquette réalisée sur Figma
+- 📱 **Responsive** : Oui, adapté à tous les formats d’écran
+- ✅ **Statut** : Site validé et mis en ligne par le client
+- 🧩 **Fonctionnalités** :
+  - Navigation fluide entre sections
+  - Formulaire de contact fonctionnel
+  - Code structuré, clair et maintenable
 
-### 🎨 Front-End
+## 🧑‍💻 Processus de développement
 
-- Maquettage ✔
-- Codage ✔
+Ce projet a été réalisé dans le cadre de mon stage d’un mois et demi.  
+J’ai adopté une approche agile avec des cycles courts, validant les étapes avec le client pour assurer la cohérence entre ses besoins et les livrables.
 
-### 🖥 Back-End
+## 🚧 Défis techniques
 
-- Base de Données ✖
-- Maquettage ✖
-- Codage ✖
+Parmi les défis notables :
+- Garantir un rendu responsive fiable sans framework
+- Optimiser la performance et l’accessibilité dès la version initiale
+- Structurer le code pour faciliter la future transition vers un environnement React
 
----
-#
----
+## 🧪 Tests et qualité
 
-# <a href="https://pmgoudet.vercel.app/assets/pages/minutos.html" target="_blank">🔗 Project Link - GO!</a>
-Here is the fully coded and **completely responsive** website, with all elements and functionalities integrated, ready to be published on the client’s site. Final adjustments are currently being made and are aligned with the client’s expectations.
+- **Accessibilité** : Audit réalisé avec Lighthouse (score > 90%)
+- **Performance** : Chargement rapide et code allégé
+- **Compatibilité** : Fonctionne sur les principaux navigateurs (Chrome, Firefox, Safari)
+- **Validation** : Code conforme aux standards HTML/CSS (W3C Validator)
 
-## 📣 The Project
-Since 2007, **Minutos Telecom** has been providing telecommunications and information technology solutions tailored for businesses of all sizes and residences. Based in Campinas (São Paulo, Brazil), it serves over 500 clients, including Embraer and Nacional INN.
+## 🔄 Évolution prévue
 
-As a long-time friend of the owner of **Minutos**, I identified a strategic opportunity to strengthen its online presence. After evaluating its current website, I proposed technical improvements to optimize its digital impact. This initiative aims to deepen my skills while helping the company maximize its benefits.
+Le site sera **reconstruit avec React et Tailwind CSS** afin d’optimiser la maintenabilité, la scalabilité et d'intégrer de nouvelles fonctionnalités dynamiques.
 
-## 🔧 **Technologies**
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+## 🖥 Projet back-end
 
-## 👷‍♂️ Status - IN PROGRESS
+Le développement du système d’administration (back-office) est disponible ici :  
+🔗 [Dépôt GitHub du projet back-end](LIEN_DU_DEPOT_BACKEND)
 
-### 📝 Planning 
+## 🔗 Autres liens
 
-- Current website analysis ✔
-- Competitor analysis ✔
-- Texts  ✔
-- Site structure ✔
-- UML Use Case ✔
-
-### 🎨 Front-End
-
-- Wireframing ✔
-- Mockup creation ✔
-- Coding ✔
-
-### 🖥 Back-End
-
-- Database ✖
-- Mockup creation ✖
-- Coding ✖
-
-
+- 🌐 [Mon portfolio complet](https://votre-portfolio.com)
+- 🧑‍💼 [Mon profil LinkedIn](https://www.linkedin.com/in/votre-profil)
