@@ -1,4 +1,8 @@
-# 💡 Minutos Telecom — Site vitrine
+<h1 align="center">
+<img src="assets/img/logo/logo-oficial.png" alt="Logo" width="250px">
+<p></p>
+<p>🖥 Minutos Telecom - Site Vitrine</p>
+</h1>
 
 Depuis 2007, **Minutos Telecom** propose des solutions en télécommunications et technologies de l’information, adaptées aux besoins d’entreprises de toutes tailles ainsi qu’aux particuliers. Basée à Campinas (São Paulo, Brésil), l’entreprise compte plus de 500 clients, parmi lesquels **Embraer** et **Nacional INN**.
 
@@ -10,8 +14,12 @@ Ce projet m’a permis d’approfondir mes compétences front-end tout en livran
 
 ## 📸 Démonstration du projet
 
-🔗 **Lien vers le site déployé** : [URL_DU_SITE](https://exemple.com)  
-🖼️ *(Ajoutez ici des captures d’écran si nécessaire)*
+🔗 **Lien vers le site déployé** : [minutostelecom.com.br](https://www.minutostelecom.com.br/)  
+
+<h2 align="center">
+<img src="assets/img/github/printscreen-home.JPG" alt="PrintScreen" width="100%">
+</h2>
+
 
 ## 🚀 Détails du projet
 
@@ -24,10 +32,6 @@ Ce projet m’a permis d’approfondir mes compétences front-end tout en livran
   - Formulaire de contact fonctionnel
   - Code structuré, clair et maintenable
 
-## 🧑‍💻 Processus de développement
-
-Ce projet a été réalisé dans le cadre de mon stage d’un mois et demi.  
-J’ai adopté une approche agile avec des cycles courts, validant les étapes avec le client pour assurer la cohérence entre ses besoins et les livrables.
 
 ## 🚧 Défis techniques
 
@@ -50,9 +54,9 @@ Le site sera **reconstruit avec React et Tailwind CSS** afin d’optimiser la ma
 ## 🖥 Projet back-end
 
 Le développement du système d’administration (back-office) est disponible ici :  
-🔗 [Dépôt GitHub du projet back-end](LIEN_DU_DEPOT_BACKEND)
+🔗 [Dépôt GitHub du projet back-end](https://github.com/pmgoudet/minutos-telecom-_php)
 
 ## 🔗 Autres liens
 
-- 🌐 [Mon portfolio complet](https://votre-portfolio.com)
-- 🧑‍💼 [Mon profil LinkedIn](https://www.linkedin.com/in/votre-profil)
+- 🌐 [Mon portfolio complet](https://pedrogoudet.vercel.app/)
+- 🧑‍💼 [Mon profil LinkedIn](https://www.linkedin.com/in/pmgoudet)
